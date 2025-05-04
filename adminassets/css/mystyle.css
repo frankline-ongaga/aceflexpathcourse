@@ -1,0 +1,310 @@
+#other,#juice{
+  display: none;
+}
+
+
+.time_date {
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+img{ max-width:100%;}
+.inbox_people {
+  background: #f8f8f8 none repeat scroll 0 0;
+  float: left;
+  overflow: hidden;
+  width: 40%; border-right:1px solid #c4c4c4;
+}
+.inbox_msg {
+  border: 1px solid #c4c4c4;
+  clear: both;
+  overflow: hidden;
+}
+.top_spac{ margin: 20px 0 0;}
+
+
+.recent_heading {float: left; width:40%;}
+.srch_bar {
+  display: inline-block;
+  text-align: right;
+  width: 60%; padding:
+}
+.headind_srch{ padding:10px 29px 10px 20px; overflow:hidden; border-bottom:1px solid #c4c4c4;}
+
+.recent_heading h4 {
+  color: #05728f;
+  font-size: 21px;
+  margin: auto;
+}
+.srch_bar input{ border:1px solid #cdcdcd; border-width:0 0 1px 0; width:80%; padding:2px 0 4px 6px; background:none;}
+.srch_bar .input-group-addon button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  padding: 0;
+  color: #707070;
+  font-size: 18px;
+}
+.srch_bar .input-group-addon { margin: 0 0 0 -27px;}
+
+.chat_ib h5{ font-size:15px; color:#464646; margin:0 0 8px 0;}
+.chat_ib h5 span{ font-size:13px; float:right;}
+.chat_ib p{ font-size:14px; color:#989898; margin:auto}
+.chat_img {
+  float: left;
+  width: 11%;
+}
+.chat_ib {
+  float: left;
+  padding: 0 0 0 15px;
+  width: 88%;
+}
+
+.chat_people{ overflow:hidden; clear:both;}
+.chat_list {
+  border-bottom: 1px solid #c4c4c4;
+  margin: 0;
+  padding: 18px 16px 10px;
+}
+.inbox_chat { height: 550px; overflow-y: scroll;}
+
+.active_chat{ background:#ebebeb;}
+
+.incoming_msg_img {
+  display: inline-block;
+  width: 6%;
+}
+.received_msg {
+  display: inline-block;
+  padding: 0 0 0 10px;
+  vertical-align: top;
+  width: 92%;
+ }
+ .received_withd_msg p {
+  background: #ebebeb none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #646464;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+
+#other{
+  display: none;
+}
+
+
+.time_date {
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+.received_withd_msg { width: 57%;}
+.mesgs {
+  float: left;
+  padding: 30px 15px 0 25px;
+  width: 85%;
+}
+
+ .sent_msg p {
+  background: #05728f none repeat scroll 0 0;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 0; color:#fff;
+  padding: 5px 10px 5px 12px;
+  width:100%;
+}
+.outgoing_msg{ overflow:hidden; margin:26px 0 26px;}
+.sent_msg {
+  float: right;
+  width: 46%;
+}
+.input_msg_write input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #4c4c4c;
+  font-size: 15px;
+  min-height: 48px;
+  width: 100%;
+}
+
+.type_msg {border-top: 1px solid #c4c4c4;position: relative;}
+
+.msg_send_btn {
+  background: #05728f none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  top: 11px;
+  width: 33px;
+}
+.messaging { padding: 0 0 50px 0;}
+.msg_history {
+  height: 516px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+.skin-black .sidebar-form {
+  border: none !important;
+}
+
+
+
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+#oya{
+    height: 10px !important;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: 'Font Awesome 5 Free';
+  display: inline-block;
+  content: "\f005";    
+  font-weight: 900;                  
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+  font-weight: 900;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+
+
+
+
+                                   .stv-radio-buttons-wrapper {
+                                       clear: both;
+                                       display: flex;
+                                       align-content: space-between;
+                                       //justify-content: space-between;
+                                       flex-basis: content;
+                                       align-items: stretch;
+                                       
+                                       }
+                                    .stv-radio-button {
+                                       position: absolute;
+                                       left: -9999em;
+                                       top: -9999em;
+                                    }
+                                     .stv-radio-button + label {
+                                       float: left;
+                                       padding: 0.5em 1em;
+                                       cursor: pointer;
+                                       border: 1px solid #0674ec;
+                                       margin-right: -1px;
+                                       color: #fff;
+                                       background-color: #0674ec;
+                                    }
+                                     .stv-radio-button + label:first-of-type {
+                                       border-radius: 0.7em 0 0 0.7em;
+                                    }
+                                     .stv-radio-button + label:last-of-type {
+                                       border-radius: 0 0.7em 0.7em 0;
+                                    }
+                                     .stv-radio-button:checked + label {
+                                       background-color: #5C5C5C;
+                                       border-color: #5C5C5C;
+                                    }
+
+
+
+
+.content-page {
+    margin-left: 300px !important;
+}
+
+#bata{
+  background: #5C5C5C !important;
+   border: #5C5C5C !important;
+}
+
+@media screen and (max-width: 771px) {
+    .content-page {
+                  margin-left: 0px !important;
+             }
+
+  
+}
+
+.rating>label{
+  font-size: 20px !important;
+}
+
+.rating>label.fully{
+  font-size: 15px !important;
+}
+
+.help-block{
+  color: orange !important;
+}
+
+.chat-content{
+  margin-left: 10px !important;
+}
+
+.chat-footer {
+      
+      left: 7px !important;
+
+  }
+.list-group-item:hover{
+  background: #E0EEEE;
+}
+
+#myDropzone, #myDropzonespecial, #myDropzonerevision, #updateDropzone{
+
+    background: #E0EEEE;
+}
+
+#payment{
+  display: none;
+}
+
+.float-right{
+
+   margin-right: 0px;
+  
+}
+
+.font-20 {
+    font-size: 20px;
+    top: 3px;
+    position: relative;
+}
+.error{
+  color: orange;
+}
+

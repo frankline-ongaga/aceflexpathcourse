@@ -1,0 +1,22 @@
+.inline-element {
+    display: inline-block !important;
+}
+
+.action-element {
+    margin: 10px;
+}
+
+.dropdown-menu-right {
+    left: 91% !important;
+    min-width: fit-content !important;
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+label.error{
+	color: red;
+}
+.table {
+    font-size: 14px !important;
+}

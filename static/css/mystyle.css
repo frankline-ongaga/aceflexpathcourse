@@ -1,0 +1,304 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.table-wrapper{
+
+	background: white !important;
+
+}
+
+select{
+ display: block;
+width: 100%;
+padding: 0.65rem 2.25rem 0.65rem 1.25rem;
+font-size: 0.93rem;
+font-weight: 400;
+line-height: 1.7;
+color: #726f84;
+vertical-align: middle;
+background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23101010' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+background-repeat: no-repeat;
+background-position: right 1.25rem center;
+background-size: 16px 12px;
+border: 1px solid #cbd5e0;
+border-radius: 0.25rem;
+appearance: none;
+
+ // background-repeat: no-repeat !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  -o-appearance: none !important;
+}
+
+
+                                   .stv-radio-buttons-wrapper {
+                                       //clear: both;
+                                       display: flex;
+                                       align-content: space-between;
+                                       //justify-content: space-between;
+                                       //flex-basis: content;
+                                        flex-wrap: nowrap;
+                                        align-items: stretch;
+                                        justify-content: center;
+                                        flex-grow: 1;
+
+
+                                       
+                                       }
+                                     .stv-radio-button {
+                                       position: absolute;
+                                       left: -9999em;
+                                       top: -9999em;
+                                      // width: 33% !important;
+
+                                    }
+                                     .stv-radio-button + label {
+                                       float: left;
+                                       padding: 0.5em 1em;
+                                       cursor: pointer;
+                                       border: 1px solid #49326e;
+                                       margin-right: -1px;
+                                       color: #fff;
+                                       background-color: #49326e;
+                                    }
+                                     .stv-radio-button + label:first-of-type {
+                                       border-radius: 0.7em 0 0 0.7em;
+                                    }
+                                     .stv-radio-button + label:last-of-type {
+                                       border-radius: 0 0.7em 0.7em 0;
+                                    }
+                                     .stv-radio-button:checked + label {
+                                       background-color: #fec147;
+                                       border-color: #fec147;
+                                    }
+ 
+
+#other{
+	display: none;
+}
+
+.form-wrapper{
+	background: #ffffff;
+	padding: 15px 22px;
+  border-radius: 25px;
+  width: 90%;
+  float: right;
+  margin-top: 80px;
+}
+.form-wrapper .form-select {
+   // padding: 0px 22px 0px 22px;
+    border-radius: 25px !important;
+}
+
+#loginform input {
+  
+    height: 40px !important;
+    padding: 0px 22px 0px 22px;
+}
+
+#loginform .form-select {
+  
+    height: 40px !important;
+    padding: 0px 22px 0px 22px;
+}
+
+#msform > .form-select input {
+  
+    height: 46px !important;
+    
+}
+ .form-wrapper #total{
+    padding-left: 0px !important;
+}
+
+.form-wrapper #pages {
+  
+    
+    padding: 0px !important;
+    text-align: center !important;
+}
+
+.form-wrapper .btn-number{
+  
+    height: 40px !important;
+    padding: 0px 12px !important; 
+   
+}
+
+.form-wrapper label {
+    font-size: 12px !important;
+    color: #949494 !important;
+}
+
+.text-center{
+	text-align: center !important;	
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+/*.input-group-text{
+    height: 48px !important;
+}*/
+
+.my-gray{
+  background: #fcfcfc;
+ // margin-top: -100px;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1170px;
+    }
+}
+
+.btn-warning{
+  background-color: #fec147 !important;
+  border: 1px solid #fec147 !important;
+}
+
+#myDropzone, #myDropzonespecial{
+
+    background: #E0EEEE;
+}
+#loginform .form-group{
+  margin-top: -7px;
+}
+
+#loginform #total{
+    border:none !important;
+   
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -7px;
+}
+
+#msform #total{
+    border:none !important;
+    background: white !important;
+    font-size: 30px;
+    font-weight: 600;
+   // margin-top: -12px;
+}
+
+.error{
+  color: orange !important;
+}
+
+
+.display-99{
+  font-size: 2.5rem;
+}
+
+.help-block{
+  color: orange !important;
+}
+
+.heap{
+
+    text-align: right;
+    font-weight: 500;
+   
+
+}
+.analytics{
+    text-align: left;
+    padding-left: 0px !important;
+}
+
+.currency{
+
+   font-size:15px;
+
+   margin-bottom: -7px !important;
+    
+
+}
+.tab-pane{
+  padding: 20px !important;
+}
+
+.moron{
+
+  color: #49326e !important;
+
+}
+.smally{
+  font-size: 14px;
+  text-align: left;
+}
+
+
+.mesh-background-div {
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+    min-height: 100vh; /* Take full screen height */
+    text-align: center;
+    padding: 50px 20px; /* Optional: Add some spacing on small screens */
+}
+
+.mesh-hero-gradient {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.mesh-hero-gradient .container-lg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mesh-hero-gradient .row {
+    width: 100%;
+    justify-content: center;
+}
+
+.mesh-page-title,
+.mesh-page-description,
+.mesh-button {
+    margin: 0 auto;
+}
+
+
+
+
+    .mesh-background-div {
+        min-height: 400px !important; 
+        overflow: hidden !important;
+    }
+
+    .mesh-hero-gradient {
+        height: 100% !important;
+        align-items: center !important;
+        display: flex !important;
+    }
+
+    .mesh-page-title {
+        font-size: 2.5rem !important;
+    }
+
+    .mesh-page-description {
+        font-size: 1.1rem !important;
+    }
+
+    @media (max-width: 768px) {
+        .mesh-background-div {
+            height: auto !important;
+            padding: 60px 0 !important;
+        }
+    }
+
+
+    .img-fluid{
+    max-width: 95% !important;
+    height: 85px !important;
+}
+
+
+
+

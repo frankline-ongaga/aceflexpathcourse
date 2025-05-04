@@ -1,0 +1,282 @@
+.form-wrapper{
+	background: #f8fcff !important;
+	padding:30px;
+	margin-top: 100px;
+	border-radius: 10px;
+}
+.main-form{
+	background: #f8fcff !important;
+	padding:30px;
+	//margin-top: 100px;
+	border-radius: 10px;
+}
+.slides{
+	margin-top: 40%;
+}
+#other,#juice{
+	display: none;
+}
+
+.section-yellow {
+    background-color: #00c472;
+    text-align: center;
+}
+
+.section-navyblue {
+    background-color: #00c472;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
+
+.lead,.section-title{
+  color: white;
+  font-weight: 600;
+
+}
+
+.vin{
+	  background-color: #344754;
+}
+
+.water-bg {
+    background-color: #f8fcff;
+  
+}
+
+.kevvy{
+	margin-top: 30px;
+}
+
+.blog-box{
+	padding: 20px;
+	background: white !important;
+	margin-bottom: 30px;
+}
+
+.kev{
+	color: #f8da73;
+}
+
+.small-bottom{
+	padding-bottom: 30px;
+}
+
+
+
+select{
+  background-image:
+    linear-gradient(45deg, transparent 50%, #008B8B 60%),
+    linear-gradient(135deg, #008B8B 40%, transparent 50%) !important;
+  background-position:
+    calc(100% - 30px) 18px,
+    calc(100% - 20px) 18px,
+    100% 0 !important;
+  background-size:
+    10px 10px,
+    10px 10px !important;
+
+  background-repeat: no-repeat !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  -o-appearance: none !important;
+}
+
+.input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group, .input-group-btn:last-child > .btn{
+  height: 52px;
+}
+
+ .center{
+   width: 50px;
+  margin: 40px auto;
+  
+}
+
+.text-left{
+    
+    position: relative;
+    text-align: left;
+}
+
+
+
+.help-block{
+  color: #CD3700;
+}
+
+
+#msform select 
+{
+    height: 45px;
+}
+
+#msform input 
+{
+    height: 45px;
+}
+
+#loginform input{
+  height: 45px;
+}
+
+#loginform select{
+  height: 45px;
+}
+
+#signupform input{
+  height: 45px;
+}
+
+
+#loginform .input-group-btn:last-child > .btn {
+    height: 45px;
+}
+
+#loginform .input-group-btn:first-child > .btn {
+    height: 45px;
+}
+
+
+
+#msform .input-group-btn:last-child > .btn {
+    height: 45px;
+}
+
+#msform .input-group-btn:first-child > .btn {
+    height: 45px;
+}
+
+ .stv-radio-buttons-wrapper {
+                                       clear: both;
+                                       display: inline-block;
+
+
+                                    }
+                                     .stv-radio-button {
+                                       position: absolute;
+                                       left: -9999em;
+                                       top: -9999em;
+                                      // width: 33% !important;
+
+                                    }
+                                     .stv-radio-button + label {
+                                       float: left;
+                                       padding: 0.5em 1em;
+                                       cursor: pointer;
+                                       border: 1px solid #00c472;
+                                       margin-right: -1px;
+                                       color: #fff;
+                                       background-color: #00c472;
+                                    }
+                                     .stv-radio-button + label:first-of-type {
+                                       border-radius: 0.7em 0 0 0.7em;
+                                    }
+                                     .stv-radio-button + label:last-of-type {
+                                       border-radius: 0 0.7em 0.7em 0;
+                                    }
+                                     .stv-radio-button:checked + label {
+                                       background-color: #5C5C5C;
+                                       border-color: #5C5C5C;
+                                    }
+  @media screen and (max-width: 1200px) {
+     .stv-radio-button + label {
+                                       
+                                       padding: 0.3em 0.7em;
+
+                                }
+
+  
+}
+
+@media screen and (max-width: 368px) {
+     .stv-radio-button + label {
+                                       
+                                       padding: 0.3em 0.4em;
+
+                                }
+
+  
+}
+@media screen and (max-width: 344px) {
+     .stv-radio-button + label {
+                                       
+                                       padding: 0.3em 0.4em;
+                                       font-size: 12px;
+
+                                }
+
+  
+}
+
+@media screen and (max-width: 991px) {
+
+
+#breakthrough{
+  padding-top: 800px;
+}
+
+}
+
+
+
+
+
+
+.btn-qubico{
+
+  background-color:#5C5C5C !important;
+}
+
+.cta-iphones{
+  color:white !important;
+}
+
+.text-warning {
+    color: #FFD700 !important;
+}
+
+.mbwa{
+  color: #5C5C5C;
+}
+.green{
+
+  color:#00c472 !important;
+}
+
+.btn-primary{
+  background: #5C5C5C !important;
+  border-color: #5C5C5C !important;
+}
+
+.god{
+  margin-top: 50px !important;
+}
+
+
+
+/*#parent {
+    list-style: none;
+    width: 100%;
+    //height: 90px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#parent > input {
+    display: inline-block;
+    width: 33% !important;
+   // height: 100%;
+   // background-color: red;
+}*/
+.hai{
+  height: 50px !important;
+}
+
+#crew{
+  background: #00c472 !important;
+  border-color: #00c472 !important;
+}

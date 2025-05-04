@@ -1,0 +1,4 @@
+/opt/lampp/htdocs/myessaydoer/userfile/oracle.pdf filter=lfs diff=lfs merge=lfs -text
+/opt/lampp/htdocs/myessaydoer/myessaydoerblog.sql filter=lfs diff=lfs merge=lfs -text
+/opt/lampp/htdocs/myessaydoer/userfile.zip filter=lfs diff=lfs merge=lfs -text
+/opt/lampp/htdocs/myessaydoer/myessaydoerblog.zip filter=lfs diff=lfs merge=lfs -text
