@@ -1,4 +1,4 @@
- <div class="d-flex flex-column justify-content-center">
+ati te <div class="d-flex flex-column justify-content-center">
 
         <div class="mesh-background-div relative">
             <div class="mesh-hero-image d-flex h-100">
@@ -1096,12 +1096,17 @@
       <section class="py-5">
          <div class="d-flex flex-wrap my-2 my-lg-5 gap-5 ">
             <div class="flex-grow-1 col-12 col-lg-5 wow animate__slideRightSlightly" data-wow-duration="2s" data-wow-delay=".0s">
-               <h2 class="mesh-section-heading">ATI TEAS</h2>
+               <h2 class="mesh-section-heading">RN to BSN</h2>
+               <p>(Bachelor of Science in Nursing)
+Courses: NURS-FPX4000 to NURS-FPX4900
+AceFlexPathCourse.com helps RN to BSN students master essential nursing competencies across all core FlexPath courses:</p>
                <div class="d-flex flex-column justify-content-evenly">
                   <ul class="list-unstyled ">
-                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">Comprehensive study guides covering all subjects.</span></li>
-                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">In-depth explanations provided for better understanding.</span></li>
-                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">Performance tracking to monitor progress and identify areas for improvement.</span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">NURS-FPX4000: Guidance on developing professional nursing goals, leadership qualities, and interprofessional collaboration.</span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">NURS-FPX4030 & 4040: Support in patient-centered care planning, care coordination, and applying evidence-based practices.
+                     </span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">NURS-FPX4050 & 4060: Assistance with quality improvement, healthcare policy analysis, and ethical decision-making.</span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">NURS-FPX4900 (Capstone): Personalized coaching for the final project, including proposal development, scholarly writing, and presentation preparation.</span></li>
                   </ul>
                   <button class="mesh-button ms-3 my-3" type="submit" onclick="window.location.href='/teas-test-prep'">
                   Order Now</button>
@@ -1151,7 +1156,7 @@
             </div>
             <div class="flex-grow-1 col-12 col-lg-5 wow animate__slideLeftSlightly" data-wow-duration="1.8s"
                data-wow-delay="0.2s">
-               <h2 class="mesh-section-heading">HESI A2</h2>
+               <h2 class="mesh-section-heading">RN to MSN</h2>
                <div class="d-flex flex-column justify-content-between">
                   <ul class="list-unstyled ">
                      <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">Get fully prepared for the HESI A2 exam with our comprehensive study materials.</span></li>
@@ -1190,7 +1195,7 @@
       <section class="py-5">
          <div class="d-flex flex-wrap my-2 my-lg-5 gap-5 ">
             <div class="flex-grow-1 col-12 col-lg-5 wow animate__slideRightSlightly" data-wow-duration="2s" data-wow-delay=".0s">
-               <h2 class="mesh-section-heading">Nursing Test Banks</h2>
+               <h2 class="mesh-section-heading">MHA-master in health admin</h2>
                <div class="d-flex flex-column justify-content-between">
                   <ul class="list-unstyled ">
                      <li class="my-3"><i class="fas fa-check mesh-icon-red icon-left"></i> <span class="d-flex">Includes HESI EXIT & ATI EXIT EXAMS.</span></li>
@@ -1239,7 +1244,7 @@
                   src="<?php echo base_url('assets/images/nclex1.png'); ?>" /></a>
             </div>
             <div class="flex-grow-1 col-12 col-lg-5 wow animate__slideLeftSlightly " data-wow-duration="2s" data-wow-delay=".0s">
-               <h2 class="mesh-section-heading">NCLEX</h2>
+               <h2 class="mesh-section-heading">MBA/DBA</h2>
                <div class="d-flex flex-column justify-content-between">
                   <ul class="list-unstyled ">
                      <li class="my-3"><i class="fas fa-check mesh-icon-purple icon-left"></i> <span class="d-flex">Access a vast database of NCLEX-style questions.</span></li>
@@ -1280,7 +1285,7 @@
       <section class="py-1 py-lg-5">
          <div class="d-flex flex-wrap my-2 my-lg-5 gap-5">
             <div class="flex-grow-1 col-12 col-lg-5 wow animate__slideRightSlightly" data-wow-duration="2s" data-wow-delay=".0s">
-               <h2 class="mesh-section-heading">Exit Exams</h2>
+               <h2 class="mesh-section-heading">PSych</h2>
                <div class="d-flex flex-column justify-content-between">
                   <ul class="list-unstyled">
                      <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">Covers all essential topics for nursing school exit exams.</span></li>
