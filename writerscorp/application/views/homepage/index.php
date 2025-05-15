@@ -1156,12 +1156,45 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
             </div>
             <div class="flex-grow-1 col-12 col-lg-5 wow animate__slideLeftSlightly" data-wow-duration="1.8s"
                data-wow-delay="0.2s">
-               <h2 class="mesh-section-heading">RN to MSN</h2>
+               <h2 class="mesh-section-heading">RN to MSN (Master of Science in Nursing)</h2>
+               <p><b>Courses:</b> NHS-FPX5004 to NURS-FPX6620</p>
+               <p> Students pursuing their MSN get support across foundational and advanced nursing courses:</p>
                <div class="d-flex flex-column justify-content-between">
                   <ul class="list-unstyled ">
-                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">Get fully prepared for the HESI A2 exam with our comprehensive study materials.</span></li>
-                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">Engage in interactive learning modules designed to enhance understanding and retention.</span></li>
-                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">Cover all essential topics required for the HESI A2 exam, ensuring no gaps in knowledge.</span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">
+
+NHS-FPX5004: Help with leadership self-assessments and crafting a personal leadership development plan.
+</span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">
+
+NHS-FPX6004: Coaching on interprofessional collaboration and healthcare delivery models.
+</span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">
+
+NURS-FPX6011 & 6021: Support for informatics in nursing practice and patient-centered care strategies.
+</span></li>
+
+ <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">
+
+
+
+NURS-FPX6210 & 6216: Guidance on financial planning, budgeting, and organizational leadership in nursing.
+
+</span></li>
+
+ <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">
+
+
+
+NURS-FPX6410 & 6412: Help with quality improvement initiatives and ethical practice.
+</span></li>
+
+ <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">
+
+
+
+NURS-FPX6620 (Capstone): One-on-one support for completing the MSN capstone, including topic selection, proposal writing, and final presentation.
+</span></li>
                   </ul>
                   <button class="mesh-button ms-3 my-3" type="submit" onclick="window.location.href='/hesi-test-prep'">
                   Order Now</button>
@@ -1195,15 +1228,34 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
       <section class="py-5">
          <div class="d-flex flex-wrap my-2 my-lg-5 gap-5 ">
             <div class="flex-grow-1 col-12 col-lg-5 wow animate__slideRightSlightly" data-wow-duration="2s" data-wow-delay=".0s">
-               <h2 class="mesh-section-heading">MHA-master in health admin</h2>
+               <h2 class="mesh-section-heading">MHA (Master of Health Administration)</h2>
+               <p>Courses: MHA-FPX5012 Assessment 1 to MHA-FPX5068 Assessment 4</p>
+               <p> AceFlexPathCourse.com supports MHA students in developing real-world administrative and leadership skills:</p>
                <div class="d-flex flex-column justify-content-between">
                   <ul class="list-unstyled ">
-                     <li class="my-3"><i class="fas fa-check mesh-icon-red icon-left"></i> <span class="d-flex">Includes HESI EXIT & ATI EXIT EXAMS.</span></li>
-                     <li class="my-3"><i class="fas fa-check mesh-icon-red icon-left"></i> <span class="d-flex">Interactive Learning Modules for engaging study sessions.</span></li>
-                     <li class="my-3"><i class="fas fa-check mesh-icon-red icon-left"></i> <span class="d-flex">Covers a Comprehensive Nursing Curriculum to ensure thorough preparation.</span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-red icon-left"></i> <span class="d-flex">
+
+MHA-FPX5012 Assessment 1: Help with conducting an organizational analysis, identifying performance gaps, and recommending improvements.
+</span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-red icon-left"></i> <span class="d-flex">
+
+MHA-FPX5020 & 5030: Assistance in strategic planning, leadership communication, and change management assessments.
+</span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-red icon-left"></i> <span class="d-flex">
+
+MHA-FPX5040: Coaching on compliance, ethics, and regulatory guidelines in healthcare organizations.
+</span></li>
+
+  <li class="my-3"><i class="fas fa-check mesh-icon-red icon-left"></i> <span class="d-flex">
+
+
+
+MHA-FPX5062 & 5068: Support with financial analysis, budgeting in healthcare, and final presentations on administrative initiatives.
+
+</span></li>
                   </ul>
                   <button class="mesh-button ms-3 my-3" type="submit"
-                     onclick="window.location.href="<">Order Now</button>
+                     onclick="window.location.href=<"Order Now></button>
                      
                   <div class="mesh-rate-card d-flex flex-column wow">
                      <div class="row d-flex justify-content-center d-flex flex-row">
@@ -1244,12 +1296,23 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
                   src="<?php echo base_url('assets/images/nclex1.png'); ?>" /></a>
             </div>
             <div class="flex-grow-1 col-12 col-lg-5 wow animate__slideLeftSlightly " data-wow-duration="2s" data-wow-delay=".0s">
-               <h2 class="mesh-section-heading">MBA/DBA</h2>
+               <h2 class="mesh-section-heading">Psychology</h2>
+               <p>Courses: PHI-FPX2000 to PSYC-FPX3500 (Assessment 1)</p>
+               <p> Students in psychology benefit from tutoring in theory, ethics, and applied behavior:</p>
                <div class="d-flex flex-column justify-content-between">
                   <ul class="list-unstyled ">
-                     <li class="my-3"><i class="fas fa-check mesh-icon-purple icon-left"></i> <span class="d-flex">Access a vast database of NCLEX-style questions.</span></li>
-                     <li class="my-3"><i class="fas fa-check mesh-icon-purple icon-left"></i> <span class="d-flex">Simulate the NCLEX experience with full-length practice tests.</span></li>
-                     <li class="my-3"><i class="fas fa-check mesh-icon-purple icon-left"></i> <span class="d-flex">Understand the reasoning behind each answer choice.</span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-purple icon-left"></i> <span class="d-flex">
+
+PHI-FPX2000: Help with ethical decision-making, personal values, and applying philosophical principles to psychology.
+</span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-purple icon-left"></i> <span class="d-flex">
+
+PSYC-FPX2300 to PSYC-FPX3500: Guidance on writing research-based assessments, analyzing human development and behavior, and using APA style accurately.
+</span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-purple icon-left"></i> <span class="d-flex">
+
+Assessment 1 Focus: Expert assistance in interpreting psychological concepts and designing evidence-supported responses.
+</span></li>
                   </ul>
                   <button class="mesh-button ms-3 my-3" type="submit"
                      onclick="window.location.href='/ngn-nclex-rn'">
@@ -1285,12 +1348,23 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
       <section class="py-1 py-lg-5">
          <div class="d-flex flex-wrap my-2 my-lg-5 gap-5">
             <div class="flex-grow-1 col-12 col-lg-5 wow animate__slideRightSlightly" data-wow-duration="2s" data-wow-delay=".0s">
-               <h2 class="mesh-section-heading">PSych</h2>
+               <h2 class="mesh-section-heading">MBA (Master of Business Administration)</h2>
+               <p>Courses: MBA-FPX5002 and beyond</p>
+               <p> AceFlexPathCourse.com helps MBA students succeed in high-level business competencies:</p>
                <div class="d-flex flex-column justify-content-between">
                   <ul class="list-unstyled">
-                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">Covers all essential topics for nursing school exit exams.</span></li>
-                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">Access to a variety of practice questions to assess knowledge and readiness.</span></li>
-                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">Simulate the exam environment with timed mock exams.</span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">
+
+MBA-FPX5002: Support with organizational strategy, data-driven decision-making, and leadership analysis.
+</span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">
+
+Finance, Marketing, Operations: Help with interpreting financial data, marketing case studies, and operational efficiency strategies.
+</span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">
+
+Simulations and Capstones: Coaching on business simulations, presentations, and solving real-world business challenges.
+</span></li>
                   </ul>
                   <button class="mesh-button ms-3 my-3" type="submit" onclick="window.location.href='/nursing'">Order Now</button>
                   <div class="mesh-rate-card d-flex flex-column wow">
@@ -1324,6 +1398,74 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
             </div>
          </div>
       </section>
+       <section class="py-1 py-lg-5">
+         <div class="d-flex flex-wrap my-2 my-lg-5 gap-5">
+            <div class="flex-grow-1 col-12 col-lg-5 order-2 order-lg-first wow animate__slideRightSlightly " data-wow-duration="2s" data-wow-delay=".0s">
+               <a href="/nursing">
+               <img class="image-fluid mesh-section-image shadow shadow"
+                  src="<?php echo base_url('assets/images/nclex1.png'); ?>" /></a>
+            </div>
+            <div class="flex-grow-1 col-12 col-lg-5 wow animate__slideLeftSlightly " data-wow-duration="2s" data-wow-delay=".0s">
+               <h2 class="mesh-section-heading">DNP (Doctor of Nursing Practice)</h2>
+               <p>Courses: NHS-FPX8002 and beyond</p>
+               <p>  Doctoral nursing students receive high-level academic support:</p>
+               <div class="d-flex flex-column justify-content-between">
+                  <ul class="list-unstyled ">
+                     <li class="my-3"><i class="fas fa-check mesh-icon-purple icon-left"></i> <span class="d-flex">
+
+
+
+NHS-FPX8002: Help with developing scholarly writing, synthesizing research, and aligning academic goals with practice-based evidence.
+
+</span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-purple icon-left"></i> <span class="d-flex">
+
+
+
+Capstone Preparation: Assistance with identifying practice gaps, designing interventions, and compiling doctoral-quality reports and presentations.
+</span></li>
+                     <li class="my-3"><i class="fas fa-check mesh-icon-purple icon-left"></i> <span class="d-flex">
+
+
+
+Research Application: Coaching on integrating research into clinical decision-making and population health initiatives.
+</span></li>
+                  </ul>
+                  <button class="mesh-button ms-3 my-3" type="submit"
+                     onclick="window.location.href='/ngn-nclex-rn'">
+                  Order Now</button>
+                  <div class="mesh-rate-card d-flex flex-column wow">
+                     <div class="row d-flex justify-content-center d-flex flex-row">
+                        <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                           <h5 class="mb-1 text-center">Steve</h5>
+                           <p class="mb-1 text-center">Nurse</p>
+                           <span>
+                              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                 <li><i class="fas fa-star fa-sm"></i></li>
+                                 <li><i class="fas fa-star fa-sm"></i></li>
+                                 <li><i class="fas fa-star fa-sm"></i></li>
+                                 <li><i class="fas fa-star fa-sm"></i></li>
+                                 <li><i class="fas fa-star fa-sm"></i></li>
+                              </ul>
+                           </span>
+                        </div>
+                        <div class="col-lg-8">
+                           <p class="">
+                              <i class="fas fa-quote-left pe-2"></i>
+                              Their extensive test banks and expert guidance were instrumental in my preparation
+                              journey. From detailed practice questions to comprehensive study materials.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+
+
       <section class="p-4">
          <div class="mesh-section-heading text-center">
             <h2 class="mesh-section-heading">Thousands of Success Stories</h2>
@@ -1344,9 +1486,9 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
                <div class="row d-flex justify-content-center d-flex flex-row">
                   <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
                      <img class="rounded-circle shadow-1-strong mb-2"
-                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
+                        src="img/Photos/Avatars/img%20(10).webp" alt="avatar"
                         style="width: 100px;" />
-                     <h5 class="mb-1 text-center">Shinta</h5>
+                     <h5 class="mb-1 text-center">– Jessica M., </h5>
                      <span>
                         <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                            <li><i class="fas fa-star fa-sm"></i></li>
@@ -1360,9 +1502,7 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
                   <div class="col-lg-8">
                      <p class="">
                         <i class="fas fa-quote-left pe-2"></i>
-                        I am Shinta, from India lives in TEXAS. I took the subscription for a month, and passed
-                        the exam at the first time 92% These classes are excellent and helped me very much.
-                        AceFlexPathCourse explained the logical reasoning behind the questions every time.
+                        “I was struggling with my NURS-FPX4030 care coordination assessment, and AceFlexPathCourse.com was a game-changer. They helped me organize my ideas, cite my sources properly, and meet every part of the rubric. I finished the course a month ahead of schedule!” 
                      </p>
                   </div>
                </div>
@@ -1373,7 +1513,7 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
                      <img class="rounded-circle shadow-1-strong mb-2"
                         src="<?php echo base_url('assets/images/testi2.png'); ?>" alt="avatar"
                         style="width: 100px;" />
-                     <h5 class="mb-1 text-center">J Brownen</h5>
+                     <h5 class="mb-1 text-center">– Andrea T., RN, BSN</h5>
                      <span>
                         <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                            <li><i class="fas fa-star fa-sm"></i></li>
@@ -1387,11 +1527,7 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
                   <div class="col-lg-8">
                      <p class="">
                         <i class="fas fa-quote-left pe-2"></i>
-                        I took my TEAS on 3/30/23 and I want to say, thanks to AceFlexPathCourse I can proudly say I am
-                        in
-                        the program. AceFlexPathCourse is the truth and if it wasn't for this program and GOD I don't
-                        believe I
-                        would have passed. Thanks for simplifying my preparation.
+                        “The MSN capstone felt overwhelming at first, but the coach I worked with helped me refine my topic and guided me through every step. NURS-FPX6620 went from stressful to smooth. I passed on my first submission!” 
                      </p>
                   </div>
                </div>
@@ -1404,7 +1540,7 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
                      <img class="rounded-circle shadow-1-strong mb-2"
                         src="<?php echo base_url('assets/images/testi3.png'); ?>" alt="avatar"
                         style="width: 100px;" />
-                     <h5 class="mb-1 text-center">Catherine Emmy</h5>
+                     <h5 class="mb-1 text-center">– David L., Healthcare Administrator</h5>
                      <span>
                         <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                            <li><i class="fas fa-star fa-sm"></i></li>
@@ -1418,9 +1554,7 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
                   <div class="col-lg-8">
                      <p class="">
                         <i class="fas fa-quote-left pe-2"></i>
-                        Many thanks to AceFlexPathCourse, the questions on this platform were 90% similar only a few
-                        figures changed. I improved my score from 48% to 88% on the second attempt. Very
-                        grateful for their resources
+                        “MHA-FPX5012 required an organizational analysis that I had no clue how to approach. AceFlexPathCourse.com gave me a clear structure, reviewed my drafts, and helped me understand healthcare systems better. Highly recommend their coaching!” 
                      </p>
                   </div>
                </div>
@@ -1431,7 +1565,7 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
                      <img class="rounded-circle shadow-1-strong mb-2"
                         src="<?php echo base_url('assets/images/testi4.png'); ?>" alt="avatar"
                         style="width: 100px;" />
-                     <h5 class="mb-1 text-center">Maria Gee</h5>
+                     <h5 class="mb-1 text-center">– Samantha R., Psychology Student</h5>
                      <span>
                         <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                            <li><i class="fas fa-star fa-sm"></i></li>
@@ -1445,10 +1579,7 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
                   <div class="col-lg-8">
                      <p class="">
                         <i class="fas fa-quote-left pe-2"></i>
-                        I thank AceFlexPathCourse and his simplenursing.com team for the amazing job they did putting
-                        the
-                        content and this program together. If it wasn't for AceFlexPathCourse I dont think I would have
-                        passed the TEAS TEST. Thank you very much
+                        “I got stuck on PHI-FPX2000’s ethical dilemma essay. The tutor walked me through moral frameworks and helped me build a strong, well-organized argument. By PSYC-FPX3500, I was writing like a pro!” 
                      </p>
                   </div>
                </div>
@@ -1461,7 +1592,7 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
                      <img class="rounded-circle shadow-1-strong mb-2"
                         src="<?php echo base_url('assets/images/testi1.png'); ?>" alt="avatar"
                         style="width: 100px;" />
-                     <h5 class="mb-1 text-center">Sarah Clinton</h5>
+                     <h5 class="mb-1 text-center">– James K., Business Analyst</h5>
                      <span>
                         <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                            <li><i class="fas fa-star fa-sm"></i></li>
@@ -1475,10 +1606,7 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
                   <div class="col-lg-8">
                      <p class="">
                         <i class="fas fa-quote-left pe-2"></i>
-                        I thank AceFlexPathCourse and his simplenursing.com team for the amazing job they did putting
-                        the
-                        content and this program together. If it wasn't for AceFlexPathCourse I dont think I would have
-                        passed the TEAS TEST. Thank you very much
+                        “MBA-FPX5002 pushed me hard with strategy and leadership analysis. The support I got from AceFlexPathCourse.com helped me apply theory to real-world cases. I ended up with a 4.0 GPA this term.” 
                      </p>
                   </div>
                </div>
@@ -1489,7 +1617,7 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
                      <img class="rounded-circle shadow-1-strong mb-2"
                         src="<?php echo base_url('assets/images/testi5.png'); ?>" alt="avatar"
                         style="width: 100px;" />
-                     <h5 class="mb-1 text-center">Jona Kelie</h5>
+                     <h5 class="mb-1 text-center">– Marianne E., DNP Candidate</h5>
                      <span>
                         <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                            <li><i class="fas fa-star fa-sm"></i></li>
@@ -1503,20 +1631,8 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
                   <div class="col-lg-8">
                      <p class="">
                         <i class="fas fa-quote-left pe-2"></i>
-                        I just passed my TEAS ...Thank you AceFlexPathCourse, your content was such a big help for me!
-                        Im
-                        beyond grateful. i subscribe to AceFlexPathCourse for one month with life tutoring , took two
-                        three
-                        self assessment designed same style and same amount of time, <a class="text-primary"
-                           data-bs-toggle="collapse" href="#collape2">Read
-                        more...</a>
-                     <div class="collapse" id="collape2"> oh and the questions were almost similar to
-                        actual
-                        exam and now passed with 89% ! thank you so much! i highly recommend AceFlexPathCourse to all
-                        my
-                        friends and colleagues who will take TEAS to subscribe, I told them that its very
-                        affordable yet quality and VERY HELPFUL.
-                     </div>
+                       “As a full-time nurse and mom, balancing my DNP project was tough. The capstone mentor helped me design an effective intervention and guided me through scholarly writing for NHS-FPX8002. I couldn’t have done it without them.” 
+                    
                      <p></p>
                      </p>
                   </div>
