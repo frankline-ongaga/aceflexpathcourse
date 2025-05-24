@@ -9,19 +9,19 @@
 }
 
 select{
- display: block;
+display: block !important;
 width: 100%;
-padding: 0.65rem 2.25rem 0.65rem 1.25rem;
+padding: 0.65rem 2.25rem 0.65rem 1.25rem !important;
 font-size: 0.93rem;
 font-weight: 400;
 line-height: 1.7;
 color: #726f84;
 vertical-align: middle;
 background-color: #ffffff;
-background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23101010' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23101010' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e") !important;
 background-repeat: no-repeat;
-background-position: right 1.25rem center;
-background-size: 16px 12px;
+background-position: right 1.25rem center !important;
+background-size: 16px 12px !important;
 border: 1px solid #cbd5e0;
 border-radius: 0.25rem;
 appearance: none;
@@ -58,10 +58,10 @@ appearance: none;
                                        float: left;
                                        padding: 0.5em 1em;
                                        cursor: pointer;
-                                       border: 1px solid #49326e;
+                                       border: 1px solid #042033;
                                        margin-right: -1px;
                                        color: #fff;
-                                       background-color: #49326e;
+                                       background-color: #042033;
                                     }
                                      .stv-radio-button + label:first-of-type {
                                        border-radius: 0.7em 0 0 0.7em;
@@ -70,8 +70,8 @@ appearance: none;
                                        border-radius: 0 0.7em 0.7em 0;
                                     }
                                      .stv-radio-button:checked + label {
-                                       background-color: #fec147;
-                                       border-color: #fec147;
+                                       background-color: #ffc107;
+                                       border-color: #ffc107;
                                     }
  
 
@@ -107,6 +107,13 @@ appearance: none;
 #msform > .form-select input {
   
     height: 46px !important;
+    
+}
+
+#msform .input-number{
+  
+    height: 46px !important;
+    text-align: center;
     
 }
  .form-wrapper #total{
@@ -299,6 +306,32 @@ appearance: none;
     height: 85px !important;
 }
 
+#msform .input-group .btn {
 
+    height: 46px !important;
 
+}
+.input-group-prepend{
+
+    height: 40px !important;
+}
+.input-group-text{
+    height: 40px !important;
+}
+.left{
+    text-align: left !important;
+}
+
+#msform label{
+    display: inline-block;
+    float: inline-start !important;
+}
+
+#msform input{
+
+    height: 45px !important;
+}
+.bold{
+    font-weight: 800;
+}
 

@@ -409,7 +409,7 @@
                 
              $this->db->select('price');
 
-             $this->db->from('tbl_pricing');
+             $this->db->from('tbl_pricing_aceflexpathcourse');
 
             
               $this->db->where('deadline_id=',$deadline);

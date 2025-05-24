@@ -80,7 +80,7 @@ class Home extends CI_Controller {
 
      public function get_calculation_variables()
     {
-       $this->check_log_activity();
+       //$this->check_log_activity();
 
 
        $data['discipline']=$this->Designmodel->get_discipline();

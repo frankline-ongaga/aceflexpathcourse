@@ -227,18 +227,7 @@
          </div>
       </section>
 
-      <section>
-         <div class="text-center my-5 pb-4 rounded wow animate__slideDownSlightly" data-wow-duration="2s" data-wow-delay=".0s" style="box-shadow: 0 0.05rem 1rem rgba(0,0,0,.15)!important;">
-            <a href="https://www.trustpilot.com/review/naxlex.com" target="_blank">
-               <img src="images/tp-rtng.png" class="img-fluid" loading="lazy" alt="Naxlex trustpilot rating">
-            </a>
-            <div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="6422ecc25cf3f43495120fd3" data-style-height="24px" data-style-width="100%" data-theme="light" data-min-review-count="10" data-style-alignment="center"></div>
-         </div>
-
-         <div class="d-flex justify-content-center my-3">
-            <a href="<?php echo base_url('order_now'); ?>" class="mesh-button ms-3 my-3 wow animate__slideUpSlightly" data-wow-duration="2s" data-wow-delay=".0s">Start the journey with us today</a>
-         </div>
-      </section>
+   
    </div>
 </div>
 

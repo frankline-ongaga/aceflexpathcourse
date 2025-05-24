@@ -4,14 +4,12 @@
             <div class="row align-items-center">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center">
                     <h1 class="mesh-page-title infinite wow animate__slideDownSlightly" data-wow-duration="1.5s" data-wow-delay=".0s">
-                        ATI TEAS
+                        AceFlexPathCourse Account
                     </h1>
                     <p class="mesh-page-description my-3 infinite wow animate__slideUpSlightly" data-wow-duration="1.5s" data-wow-delay=".0s">
-                        Most Trusted TEAS 7 Practice Test Website With a Guaranteed Pass of 90% Plus!
+                       Login or create your AceFlexPathCourse account 
                     </p>
-                    <a href="<?php echo base_url('order_now'); ?>" class="mesh-button px-3 infinite wow animate__slideLeftSlightly" data-wow-duration="1.5s" data-wow-delay=".0s">
-                        Place Your Order Now
-                    </a>
+                 
                 </div>
                 <!-- Image column (commented out)
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-end">

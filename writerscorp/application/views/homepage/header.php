@@ -3,30 +3,18 @@
     <head>
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-JH8Y4MPXMK"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-JH8Y4MPXMK');
-        </script>
+      
         <meta charset="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
-        <title>Naxlex: TEAS 7, HESI A2, NCLEX, NURSING TEST BANKS</title>
-                <meta name="description" content="Pass the teas exam the first time. We are committed to providing students with only the best questions and explanations." />
+        <title><?php if(isset($title)){ echo $title; } ?></title>
+                <meta name="description" content="<?php if(isset($description)){ echo $description; } ?>" />
         
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="google-site-verification" content="KwikTOmu4_Az6UQGLgMUwN6CWKyRLqGhNzHLWtEsSYc" />
-        <meta name="msvalidate.01" content="91CCD92DDAF23075D3E2D9AD64F42F12" />
         
-        <meta http-equiv='cache-control' content='no-cache'>
-        <meta http-equiv='expires' content='0'>
-        <meta http-equiv='pragma' content='no-cache'>
+      
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-        <link rel="shortcut icon" type="image/png" href="https://www.naxlex.com/images/favicon.png?vs=479318932" />
-        <link rel="canonical" href="https://www.naxlex.com" />
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.min.css" />
@@ -45,7 +33,6 @@
 
 
         <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JH8Y4MPXMK" defer></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
@@ -112,22 +99,30 @@
        
 
         </style>
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5c95e820101df77a8be41012/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
     </head>
 
 
 
-    <body>
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJRR4C7" height="0" width="0" style="display: none; visibility: hidden;"></iframe></noscript>
-
-        <!-- End Google Tag Manager (noscript) -->
+    <body onload="get_tols();">
+      
         <div id="app">
             <!-- Navbar -->
             <nav class="navbar mesh-nav-controls navbar-expand-lg w-100 ">
                 <div class="container-fluid container-lg d-flex justify-content-between">
-                    <a class="navbar-brand d-flex justify-content-center align-items-between gap-2" href="https://www.naxlex.com">
-                         <img src="https://www.naxlex.com/assets/images/logo.png" alt="Naxlex NCLEX" class="img-fluid mb-1" style="height: 30px;margin-top:-10px;z-index:-1" />         
-                        <span class="mesh-nav-link" style="margin-top:-7px">Naxlex</span>
+                    <a class="navbar-brand d-flex justify-content-center align-items-between gap-2" href="<?= base_url(); ?>">
+                         <img src="<?= base_url('images/aceflexpathcourse.png'); ?>" alt="AceFlexPathCourse now" class="mb-1" style="height: 30px;margin-top:-10px;z-index:-1" />         
+                        <!-- <span class="mesh-nav-link" style="margin-top:-7px">Naxlex</span> -->
                     </a>
                     <a
                         class="d-lg-none cursor-pointer rounded-circle d-flex shadow justify-content-center justify-items-center"

@@ -39,7 +39,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="<?= base_url('img/fav/favicon-16x16.png'); ?>">
 
     
-    <title>EssayBloom</title>
+    <title>AceFlexPathCourse</title>
 </head>
 
 <body onload="get_tols()">
@@ -49,7 +49,7 @@
         <div class="sidebar-wrapper" data-simplebar="true">
             <div class="sidebar-header">
                 <div>
-                    <img style="width: 60%;" src="<?php echo base_url('src/img-min/logo/logo.png'); ?>" class="logo-icon" alt="logo icon">
+                    <img style="width: 60%;" src="<?php echo base_url('images/aceflexpathcoursecolor.png'); ?>" class="logo-icon" alt="logo icon">
                 </div>
                 <!-- <div>
                     <h4 class="logo-text">EssayLoop</h4>

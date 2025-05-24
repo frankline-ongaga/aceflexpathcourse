@@ -1,39 +1,89 @@
-ati te <div class="d-flex flex-column justify-content-center">
+<div class="d-flex flex-column justify-content-center">
 
         <div class="mesh-background-div relative">
             <div class="mesh-hero-image d-flex h-100">
                 <div class="container-lg d-flex flex-row gap-4" style="margin-top: 150px">
                     <div class=" d-flex flex-column h-100">
-                        <h1 class="mesh-page-title ">Worried you won’t pass your <span class="text-warning">HESI A2</span> test?</h1>
+                        <h1 class="mesh-page-title ">Title here <span class="text-warning">title here</span> title  here</h1>
                         <p class="mesh-page-description my-3 text-warning">
                             What if you could pass your test in less time for less money AND take the guesswork out of deciding what to study?
                         </p>
                         <div>
                             <p class="mesh-page-description mb-1 fs-5 nclex-desc">
-                                <i class="fas fa-check circle-icon bg-warning text-dark icon-left"></i> <span class="d-flex"> Full length practice tests</span>
+                                <i class="fas fa-check circle-icon bg-warning text-dark icon-left"></i> <span class="d-flex"> advantage one</span>
                             </p>
                             <p class="mesh-page-description mb-1 fs-5 nclex-desc">
-                                <i class="fas fa-check circle-icon bg-warning text-dark icon-left"></i> <span class="d-flex"> Detailed answer explanations</span>
+                                <i class="fas fa-check circle-icon bg-warning text-dark icon-left"></i> <span class="d-flex"> advantage two</span>
                             </p>
                             <p class="mesh-page-description mb-1 fs-5 nclex-desc">
-                                <i class="fas fa-check circle-icon bg-warning text-dark icon-left"></i> <span class="d-flex"> Comprehensive practice for all 7 subjects on the HESI A2</span>
+                                <i class="fas fa-check circle-icon bg-warning text-dark icon-left"></i> <span class="d-flex"> advantage three</span>
                             </p>
                         </div>
-                        <div class="animate__animated animate__headShake">
-                            <ul class="list-inline">
-                                <li class="list-inline-item">
-                                    <div class="mt-4">
-                                        <a href="#pricing" class="mesh-button">
-                                            <div class="card-statistic-3 px-5 py-3">
+                        <ul class="list-inline">
+                                <li class="list-inline-item wow animate__slideLeftSlightly" data-wow-duration=".3s" data-wow-delay=".0s">
+                                    <div class="card l-bg-cherry">
+                                        <a href="/teas-test-prep">
+                                            <div class="card-statistic-3 p-3">
+                                                <div class="card-icon card-icon-large"></div>
                                                 <div class="">
-                                                    <span class="card-title mb-0">Start Studying</span>
+                                                    <span class="card-title mb-0">RN to BSN</span>
                                                 </div>
                                             </div>
                                         </a>
                                     </div>
                                 </li>
+                                <li class="list-inline-item wow animate__slideLeftSlightly" data-wow-duration=".6s" data-wow-delay=".2s">
+                                    <div class="card l-bg-green-dark">
+                                        <a href="https://nursing.naxlex.com">
+                                            <div class="card-statistic-3 p-3">
+                                                <div class="card-icon card-icon-large"></div>
+                                                <div class="">
+                                                    <span class="card-title mb-0">RN to MSN</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item wow animate__slideLeftSlightly" data-wow-duration=".8s" data-wow-delay=".4s">
+                                    <div class="card l-bg-blue-dark">
+                                        <a href="/hesi-test-prep">
+                                            <div class="card-statistic-3 p-3">
+                                                <div class="card-icon card-icon-large"></div>
+                                                <div class="2">
+                                                    <span class="card-title mb-0">MHA</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <br class="d-none d-xxl-block">
+                                <li class="list-inline-item wow animate__slideLeftSlightly" data-wow-duration=".9s" data-wow-delay=".6s">
+                                    <div class="card l-bg-blue-dark">
+                                        <a href="/ngn-nclex-rn">
+                                            <div class="card-statistic-3 p-3">
+                                                <div class="card-icon card-icon-large"></div>
+                                                <div class="-4">
+                                                    <span class="card-title mb-0">DHA</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item wow animate__slideLeftSlightly" data-wow-duration="1s" data-wow-delay=".8s">
+                                    <div class="card l-bg-orange-dark">
+                                        <a href="https://www.naxlex.com/nursing/nursing-exit-exams">
+                                            <div class="card-statistic-3 p-3">
+                                                <div class="card-icon card-icon-large"></div>
+                                                <div class="-4">
+                                                    <span class="card-title mb-0">DNP</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+
                             </ul>
-                        </div>
+                     
                         
                     </div>
                     
@@ -1093,6 +1143,67 @@ ati te <div class="d-flex flex-column justify-content-center">
          </div>
          <!--end of maternal tab end-->
       </section>
+
+        <section class="advantages-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left side - Image -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="tutor-image-container fade-in-left">
+                        <img src="<?= base_url('images/flex.png'); ?>" alt="Expert FlexPath Tutor with Multiple Degrees" class="tutor-image" id="uploaded-image">
+                      
+                    </div>
+                </div>
+                
+                <!-- Right side - Advantages -->
+                <div class="col-lg-6 col-md-12">
+                    <div class="fade-in-up">
+                        <h2 class="bold">
+                            Why Choose AceFlexPathCourse.com?
+                        </h2>
+                        <p class="section-subtitle">
+                            Experience the difference with our proven approach to FlexPath success. Join thousands of students who have accelerated their academic journey with our expert guidance.
+                        </p>
+                    </div>
+                    
+                    <div class="advantage-item fade-in-up">
+                    
+                        <h3 class="advantage-title bold">
+                            <span class="highlight-number">100%</span> Qualified Expert Tutors
+                        </h3>
+                        <p class="advantage-description">
+                            Our tutors hold advanced degrees in their respective fields and have extensive experience with competency-based education. From MSN to MBA, BSN to IT - we have experts in every FlexPath program.
+                        </p>
+                       
+                    </div>
+                    
+                 
+                    
+                    <div class="advantage-item fade-in-up">
+                      
+                        <h3 class="advantage-title bold">
+                            <span class="highlight-number">24/7</span> Confidential Support
+                        </h3>
+                        <p class="advantage-description">
+                            Your privacy is our priority. All interactions are completely confidential, and our support team is available around the clock to assist with your academic needs.
+                        </p>
+                      
+                    </div>
+                    
+                    <div class="advantage-item fade-in-up">
+                     
+                        <h3 class="advantage-title bold">
+                            <span class="highlight-number">98%</span> Student Success Rate
+                        </h3>
+                        <p class="advantage-description">
+                            Our track record speaks for itself. Nearly all our students successfully complete their FlexPath programs with improved grades and enhanced understanding of their coursework.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
       <section class="py-5">
          <div class="d-flex flex-wrap my-2 my-lg-5 gap-5 ">
             <div class="flex-grow-1 col-12 col-lg-5 wow animate__slideRightSlightly" data-wow-duration="2s" data-wow-delay=".0s">
@@ -1108,9 +1219,9 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
                      <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">NURS-FPX4050 & 4060: Assistance with quality improvement, healthcare policy analysis, and ethical decision-making.</span></li>
                      <li class="my-3"><i class="fas fa-check mesh-icon-blue icon-left"></i> <span class="d-flex">NURS-FPX4900 (Capstone): Personalized coaching for the final project, including proposal development, scholarly writing, and presentation preparation.</span></li>
                   </ul>
-                  <button class="mesh-button ms-3 my-3" type="submit" onclick="window.location.href='/teas-test-prep'">
+                  <button class="mesh-button ms-3 my-3" type="submit" href="<?= base_url('order_now'); ?>">
                   Order Now</button>
-                  <div class="mesh-rate-card d-flex flex-column wow">
+                 <!--  <div class="mesh-rate-card d-flex flex-column wow">
                      <div class="row d-flex justify-content-center d-flex flex-row">
                         <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
                            <h5 class="mb-1 text-center">Maria Kate</h5>
@@ -1133,13 +1244,13 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
                            </p>
                         </div>
                      </div>
-                  </div>
+                  </div> -->
                </div>
             </div>
             <div class="flex-grow-1 col-12 col-lg-5 wow animate__slideLeftSlightly " data-wow-duration="2s" data-wow-delay=".0s">
                <a href="/teas-test-prep">
-               <img class="image-fluid mesh-section-image shadow"
-                  src="<?php echo base_url('assets/images/teas7.png'); ?>" />
+               <img class="image-fluid shadow"
+                  src="<?php echo base_url('images/rntobsn.webp'); ?>" />
                </a>
             </div>
          </div>
@@ -1151,7 +1262,7 @@ AceFlexPathCourse.com helps RN to BSN students master essential nursing competen
                <a href="">
                <img class="image-fluid mesh-section-image shadow"
                   class="image-fluid mesh-section-image shadow"
-                  src="<?php echo base_url('assets/images/hesi.png'); ?>" />
+                  src="<?php echo base_url('images/rntomsn.webp'); ?>" />
                </a>
             </div>
             <div class="flex-grow-1 col-12 col-lg-5 wow animate__slideLeftSlightly" data-wow-duration="1.8s"
@@ -1196,31 +1307,9 @@ NURS-FPX6410 & 6412: Help with quality improvement initiatives and ethical pract
 NURS-FPX6620 (Capstone): One-on-one support for completing the MSN capstone, including topic selection, proposal writing, and final presentation.
 </span></li>
                   </ul>
-                  <button class="mesh-button ms-3 my-3" type="submit" onclick="window.location.href='/hesi-test-prep'">
+                  <button class="mesh-button ms-3 my-3" type="submit" href="<?= base_url('order_now'); ?>">
                   Order Now</button>
-                  <div class="mesh-rate-card d-flex flex-column wow">
-                     <div class="row d-flex justify-content-center d-flex flex-row">
-                        <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-                           <h5 class="mb-1 text-center">Ann Romin</h5>
-                           <p class="mb-1 text-center">Nurse</p>
-                           <span>
-                              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                              </ul>
-                           </span>
-                        </div>
-                        <div class="col-lg-8">
-                           <p class="">
-                              <i class="fas fa-quote-left pe-2"></i>
-                              AceFlexPathCourse.com truly helped me conquer the HESI A2 exam! Got tailored study materials.
-                           </p>
-                        </div>
-                     </div>
-                  </div>
+                 
                </div>
             </div>
          </div>
@@ -1254,37 +1343,15 @@ MHA-FPX5062 & 5068: Support with financial analysis, budgeting in healthcare, an
 
 </span></li>
                   </ul>
-                  <button class="mesh-button ms-3 my-3" type="submit"
-                     onclick="window.location.href=<"Order Now></button>
+                  <button class="mesh-button ms-3 my-3" href="<?= base_url('order_now'); ?>"> Order Now></button>
                      
-                  <div class="mesh-rate-card d-flex flex-column wow">
-                     <div class="row d-flex justify-content-center d-flex flex-row">
-                        <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-                           <h5 class="mb-1 text-center">Modesta</h5>
-                           <p class="mb-1 text-center">Nurse</p>
-                           <span>
-                              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                              </ul>
-                           </span>
-                        </div>
-                        <div class="col-lg-8">
-                           <p class="">
-                              <i class="fas fa-quote-left pe-2"></i>
-                              At AceFlexPathCourse.com, I found the ultimate support system with  comprehensive test banks for my nursing journey. 
-                        </div>
-                     </div>
-                  </div>
+                
                </div>
             </div>
             <div class="flex-grow-1 col-12 col-lg-5 wow animate__slideLeftSlightly " data-wow-duration="2s" data-wow-delay=".0s">
                <a href="/nursing">
-               <img class="image-fluid mesh-section-image shadow shadow"
-                  src="<?php echo base_url('assets/images/testbank.png'); ?>" /></a>
+               <img class="image-fluid shadow shadow"
+                  src="<?php echo base_url('images/mha.webp'); ?>" /></a>
             </div>
          </div>
       </section>
@@ -1292,8 +1359,8 @@ MHA-FPX5062 & 5068: Support with financial analysis, budgeting in healthcare, an
          <div class="d-flex flex-wrap my-2 my-lg-5 gap-5">
             <div class="flex-grow-1 col-12 col-lg-5 order-2 order-lg-first wow animate__slideRightSlightly " data-wow-duration="2s" data-wow-delay=".0s">
                <a href="/nursing">
-               <img class="image-fluid mesh-section-image shadow shadow"
-                  src="<?php echo base_url('assets/images/nclex1.png'); ?>" /></a>
+               <img class="image-fluid shadow shadow"
+                  src="<?php echo base_url('images/psychology.webp'); ?>" /></a>
             </div>
             <div class="flex-grow-1 col-12 col-lg-5 wow animate__slideLeftSlightly " data-wow-duration="2s" data-wow-delay=".0s">
                <h2 class="mesh-section-heading">Psychology</h2>
@@ -1314,33 +1381,9 @@ PSYC-FPX2300 to PSYC-FPX3500: Guidance on writing research-based assessments, an
 Assessment 1 Focus: Expert assistance in interpreting psychological concepts and designing evidence-supported responses.
 </span></li>
                   </ul>
-                  <button class="mesh-button ms-3 my-3" type="submit"
-                     onclick="window.location.href='/ngn-nclex-rn'">
+                  <button class="mesh-button ms-3 my-3" href="<?= base_url('order_now'); ?>">
                   Order Now</button>
-                  <div class="mesh-rate-card d-flex flex-column wow">
-                     <div class="row d-flex justify-content-center d-flex flex-row">
-                        <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-                           <h5 class="mb-1 text-center">Steve</h5>
-                           <p class="mb-1 text-center">Nurse</p>
-                           <span>
-                              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                              </ul>
-                           </span>
-                        </div>
-                        <div class="col-lg-8">
-                           <p class="">
-                              <i class="fas fa-quote-left pe-2"></i>
-                              Their extensive test banks and expert guidance were instrumental in my preparation
-                              journey. From detailed practice questions to comprehensive study materials.
-                           </p>
-                        </div>
-                     </div>
-                  </div>
+               
                </div>
             </div>
          </div>
@@ -1366,34 +1409,13 @@ Finance, Marketing, Operations: Help with interpreting financial data, marketing
 Simulations and Capstones: Coaching on business simulations, presentations, and solving real-world business challenges.
 </span></li>
                   </ul>
-                  <button class="mesh-button ms-3 my-3" type="submit" onclick="window.location.href='/nursing'">Order Now</button>
-                  <div class="mesh-rate-card d-flex flex-column wow">
-                     <div class="row d-flex justify-content-center d-flex flex-row">
-                        <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-                           <h5 class="mb-1 text-center">Hudson Aladi</h5>
-                           <span>
-                              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                              </ul>
-                           </span>
-                        </div>
-                        <div class="col-lg-8">
-                           <p class="">
-                              <i class="fas fa-quote-left pe-2"></i>
-                              At AceFlexPathCourse.com, I found the perfect companion for my exit exams. Have comprehensive study materials and personalized guidance.
-                           </p>
-                        </div>
-                     </div>
-                  </div>
+                  <button class="mesh-button ms-3 my-3" type="submit" href="<?= base_url('order_now'); ?>">Order Now</button>
+                 
                </div>
             </div>
             <div class="flex-grow-1 col-12 col-lg-5  wow animate__slideLeftSlightly" data-wow-duration="2s" data-wow-delay=".0s">
                <a href="">
-               <img class="image-fluid mesh-section-image shadow" src="<?php echo base_url('assets/images/exit.png'); ?>" />
+               <img class="image-fluid shadow" src="<?php echo base_url('images/mba.webp'); ?>" />
                </a>
             </div>
          </div>
@@ -1403,7 +1425,7 @@ Simulations and Capstones: Coaching on business simulations, presentations, and 
             <div class="flex-grow-1 col-12 col-lg-5 order-2 order-lg-first wow animate__slideRightSlightly " data-wow-duration="2s" data-wow-delay=".0s">
                <a href="/nursing">
                <img class="image-fluid mesh-section-image shadow shadow"
-                  src="<?php echo base_url('assets/images/nclex1.png'); ?>" /></a>
+                  src="<?php echo base_url('images/dnp.webp'); ?>" /></a>
             </div>
             <div class="flex-grow-1 col-12 col-lg-5 wow animate__slideLeftSlightly " data-wow-duration="2s" data-wow-delay=".0s">
                <h2 class="mesh-section-heading">DNP (Doctor of Nursing Practice)</h2>
@@ -1432,32 +1454,9 @@ Research Application: Coaching on integrating research into clinical decision-ma
 </span></li>
                   </ul>
                   <button class="mesh-button ms-3 my-3" type="submit"
-                     onclick="window.location.href='/ngn-nclex-rn'">
+                     href="<?= base_url('order_now'); ?>">
                   Order Now</button>
-                  <div class="mesh-rate-card d-flex flex-column wow">
-                     <div class="row d-flex justify-content-center d-flex flex-row">
-                        <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-                           <h5 class="mb-1 text-center">Steve</h5>
-                           <p class="mb-1 text-center">Nurse</p>
-                           <span>
-                              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                                 <li><i class="fas fa-star fa-sm"></i></li>
-                              </ul>
-                           </span>
-                        </div>
-                        <div class="col-lg-8">
-                           <p class="">
-                              <i class="fas fa-quote-left pe-2"></i>
-                              Their extensive test banks and expert guidance were instrumental in my preparation
-                              journey. From detailed practice questions to comprehensive study materials.
-                           </p>
-                        </div>
-                     </div>
-                  </div>
+                
                </div>
             </div>
          </div>
@@ -1640,32 +1639,8 @@ Research Application: Coaching on integrating research into clinical decision-ma
             </div>
          </div>
       </section>
-      <section>
-         <div class="text-center my-5 pb-4 rounded wow animate__slideDownSlightly" data-wow-duration="2s" data-wow-delay=".0s" style="box-shadow: 0 0.05rem 1rem rgba(0,0,0,.15)!important;">
-            <div >
-               <a href="https://www.trustpilot.com/review/AceFlexPathCourse.com" target="_blank">
-               <img src="<?php echo base_url('images/tp-rtng.png'); ?>" class="img-fluid" loading="lazy"
-                  alt="AceFlexPathCourse trustpilot rating">
-               </a>
-               <div>
-                  <!-- TrustBox widget - Micro Review Count -->
-                  <div class="trustpilot-widget" data-locale="en-US"
-                     data-template-id="5419b6a8b0d04a076446a9ad"
-                     data-businessunit-id="6422ecc25cf3f43495120fd3" data-style-height="24px"
-                     data-style-width="100%" data-theme="light" data-min-review-count="10"
-                     data-style-alignment="center" style="position: relative;"><iframe
-                     title="Customer reviews powered by Trustpilot" loading="auto"
-                     src="https://widget.trustpilot.com/trustboxes/5419b6a8b0d04a076446a9ad/index.html?templateId=5419b6a8b0d04a076446a9ad&amp;businessunitId=6422ecc25cf3f43495120fd3#locale=en-US&amp;styleHeight=24px&amp;styleWidth=100%25&amp;theme=light&amp;minReviewCount=10&amp;styleAlignment=center"
-                     style="position: relative; height: 24px; width: 100%; border-style: none; display: block; overflow: hidden;"></iframe>
-                  </div>
-                  <!-- End TrustBox widget -->
-               </div>
-            </div>
-         </div>
-         <div class="d-flex justify-content-center my-3">
-            <a href="#pricing" class="mesh-button ms-3 my-3 wow animate__slideUpSlightly" data-wow-duration="2s" data-wow-delay=".0s" type="submit">Start the journey with us today</a>
-         </div>
-      </section>
+      <?php include 'cta.php'; ?>
    </div>
 </div>
 </main>
+

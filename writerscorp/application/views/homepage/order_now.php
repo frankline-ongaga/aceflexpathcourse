@@ -8,11 +8,9 @@
                         Place Your Order Now
                     </h1>
                     <p class="mesh-page-description my-3 infinite wow animate__slideUpSlightly" data-wow-duration="1.5s" data-wow-delay=".0s">
-                        Most Trusted TEAS 7 Practice Test Website With a Guaranteed Pass of 90% Plus!
+                        AceFlexPathCourse.com makes it easy to get expert help with your FlexPath assignments, projects, and discussions. 
                     </p>
-                    <a href="<?php echo base_url('order_now'); ?>" class="mesh-button px-3 infinite wow animate__slideLeftSlightly" data-wow-duration="1.5s" data-wow-delay=".0s">
-                        Place Your Order Now
-                    </a>
+                   
                 </div>
                 <!-- Image column (commented out)
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-end">
@@ -128,7 +126,7 @@
 
                                                             { ?>
 
-                                                            <option  value="<?php echo $row['format_id']; ?>" <?php if($disc==$row['discipline_id']){ echo "selected"; } ?>><?php echo $row['format_name']; ?></option>
+                                                            <option  value="<?php echo $row['format_id']; ?>" <?php if($disc==$row['format_id']){ echo "selected"; } ?>><?php echo $row['format_name']; ?></option>
 
                                                        <?php } ?>
                                     </select>
@@ -225,7 +223,7 @@
                                 </div><!-- / sub-col -->
                                 
                                 <div class="form-group">
-                                  <label class="small left">Upload Files</label>
+                                  <label class="small left">Upload Files</label><br>
                                     <div class="dropzone" id="myDropzone">
                                     </div>
                                  
@@ -292,7 +290,6 @@
 
                             <div class="spacer">&nbsp;</div>
 
-                              <a href="<?= base_url() ?>home/technical_order">Make a technical order</a>
 
                             <div class="text-center">
                                

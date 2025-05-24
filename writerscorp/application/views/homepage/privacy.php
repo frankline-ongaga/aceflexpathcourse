@@ -4,12 +4,12 @@
             <div class="row align-items-center">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center">
                     <h1 class="mesh-page-title infinite wow animate__slideDownSlightly" data-wow-duration="1.5s" data-wow-delay=".0s">
-                        Please read the following terms and conditions carefully.
+                        Read our Privacy Policy
                     </h1>
                     <p class="mesh-page-description my-3 infinite wow animate__slideUpSlightly" data-wow-duration="1.5s" data-wow-delay=".0s">
                         
                     </p>
-                    <a href="#pricing" class="mesh-button px-3 infinite wow animate__slideLeftSlightly" data-wow-duration="1.5s" data-wow-delay=".0s">
+                    <a href="<?= base_url('order_now'); ?>" class="mesh-button px-3 infinite wow animate__slideLeftSlightly" data-wow-duration="1.5s" data-wow-delay=".0s">
                         Place Your Order Now
                     </a>
                 </div>
@@ -64,8 +64,8 @@ We are compliant with the Children's Online Privacy Protection Rule (COPPA) whic
 
 
 For more information, you can contact us through:<br>
-Email: support@essaybloom.com <br>
-Website: https://essaybloom.com/
+Email: support@aceflexpathcourse.com <br>
+Website: https://aceflexpathcourse.com/
 
 <br>
 <br>
