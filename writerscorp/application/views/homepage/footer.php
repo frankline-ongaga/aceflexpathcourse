@@ -1,4 +1,123 @@
  <!-- footer-area-start -->
+             <style>
+        /* Simple Logo Grid */
+        .logos-section {
+            padding: 60px 0;
+            background: #f8f9fa;
+        }
+
+        .logos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo-item {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .logo-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            border-color: #667eea;
+        }
+
+        .logo-item img {
+            max-width: 120px;
+            max-height: 80px;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+
+        .logo-item:hover img {
+            transform: scale(1.05);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .logos-grid {
+                grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+                gap: 1.5rem;
+            }
+            
+            .logo-item {
+                padding: 1.5rem;
+            }
+            
+            .logo-item img {
+                max-width: 100px;
+                max-height: 70px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logos-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+            
+            .logo-item {
+                padding: 1rem;
+            }
+            
+            .logo-item img {
+                max-width: 80px;
+                max-height: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- University Logos Section -->
+    <section class="logos-section">
+        <div class="container">
+            <div class="logos-grid">
+                <div class="logo-item">
+                    <img src="<?= base_url('universitieslogo/capella.webp'); ?>" alt="Capella University">
+                </div>
+                
+                <div class="logo-item">
+                    <img src="<?= base_url('universitieslogo/westerngovernors.webp'); ?>" alt="Western Governors University">
+                </div>
+                
+                <div class="logo-item">
+                    <img src="<?= base_url('universitieslogo/purdue.webp'); ?>" alt="Purdue University Global">
+                </div>
+                
+                <div class="logo-item">
+                    <img src="<?= base_url('universitieslogo/snhu.webp'); ?>" alt="Southern New Hampshire University">
+                </div>
+                
+                <div class="logo-item">
+                    <img src="<?= base_url('universitieslogo/walden.webp'); ?>" alt="Walden University">
+                </div>
+                
+                <div class="logo-item">
+                    <img src="<?= base_url('universitieslogo/universityofwisconsin.webp'); ?>" alt="University of Wisconsin">
+                </div>
+                
+                <div class="logo-item">
+                    <img src="<?= base_url('universitieslogo/nau.webp'); ?>" alt="Northern Arizona University">
+                </div>
+                
+                <div class="logo-item">
+                    <img src="<?= base_url('universitieslogo/umass.webp'); ?>" alt="UMass Global">
+                </div>
+            </div>
+        </div>
+    </section>
             <footer>
                 <div class="mesh-footer py-5" style="background: radial-gradient(60.63% 60.63% at 57.15% 51.07%, rgb(0 110 145) 0px, rgb(4, 32, 51) 100%); color: white;">
                     <div class="container">

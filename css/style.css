@@ -282,8 +282,8 @@ ul {
 
 .table > thead > tr > th {
 	vertical-align: bottom;
-	border-bottom: 1px solid #008B8B;
-	background-color: #008B8B;
+	border-bottom: 1px solid #042033;
+	background-color: #042033;
 	color: #fff;
 }
 
@@ -7982,7 +7982,7 @@ color: #38ef7d;
     /* background-color: #000; */
 }
 .l-bg-cherry {
-    background: linear-gradient(to right, #0369a1, #00a6f4) !important;
+  //  background: linear-gradient(to right, #0369a1, #00a6f4) !important;
     color: #fff;
 }
 

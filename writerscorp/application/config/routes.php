@@ -66,6 +66,14 @@ $route['blog'] = 'Home/blog';
 $route['blog/(:any)'] = 'home/blog';
 $route['reviews'] = 'Home/reviews';
 $route['get_expression_details/(:any)'] = 'home/get_expression_details';
+$route['services'] = 'Home/services';
+$route['samples'] = 'Home/get_samples';
+$route['universities'] = 'Home/universities';
+$route['paper_details/(:any)'] = 'home/paper_details';
+
+
+
+
 
 
 

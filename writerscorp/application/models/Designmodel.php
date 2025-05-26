@@ -289,13 +289,10 @@
               
                 else
                 {
-                   //get first discount
-                  $this->db->select('value');
-                  $this->db->from('value_store');
-                  $this->db->where('thekey','discount');
-                  $discount=$this->db->get()->row()->value;
+                   //explicitly make it 10%
+                  
 
-                  return $discount; 
+                  return 10; 
 
 
                 }

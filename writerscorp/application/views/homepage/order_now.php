@@ -231,7 +231,7 @@
 
                                 <div class="form-group">
                                   <label class="small left">Total (USD)</label>
-                                    <input type="text" min="0" name="order_amount" class="form-control" id="total"  readonly>
+                                    <input style="color: black;" type="text" min="0" name="order_amount" class="form-control" id="total"  readonly>
                                 </div>
                                  <div class="col-md-12 sub-col-right">
                                    

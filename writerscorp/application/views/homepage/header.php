@@ -141,51 +141,36 @@ s0.parentNode.insertBefore(s1,s0);
                         
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
                             <li class="mesh-nav-link ">
-                                <a class=" " href="<?php echo base_url('reviews'); ?>">HOME</a>
+                                <a class=" " href="<?php echo base_url(); ?>">Home</a>
                             </li>
                             <li class="mesh-nav-link">
-                                <a class="" href="#">Services</a>
+                                <a class="" href="<?php echo base_url('services'); ?>">Services</a>
                             </li>
                             <li class="mesh-nav-link">
-                                <a class="" href="<?php echo base_url('reviews'); ?>">Reviews</a>
+                                <a class="" href="<?php echo base_url('universities'); ?>">Universities</a>
                             </li>
                             <li class="mesh-nav-link">
-                                <a class="" href="<?php echo base_url('how_it_works'); ?>" target="_blank">  How It Works</a>
+                                <a class="" href="<?php echo base_url('how_it_works'); ?>">  How It Works</a>
                             </li>
                             <li class="mesh-nav-link">
-                                <a class="" href="<?php echo base_url('pricing'); ?>">Pricing</a>
+                                <a class="" href="<?php echo base_url('samples'); ?>">Samples</a>
                             </li>
                             
                             
                         </ul>
                         <div class="">
-                              <div class="dropdown">
-                            <button class="mesh-button-border-red ms-3 my-2 dropdown-toggle" type="button"
-                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                Register <i class="fa fa-chevron-down"></i>
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-
-                                <li><a class="dropdown-item" href="https://nursing.naxlex.com/signup">NURSING</a></li>
-                                <li><a class="dropdown-item" href="https://app.naxlex.com/signup">NCLEX RN</a></li>
-                                <li><a class="dropdown-item" href="https://account.naxlex.com/register">TEAS/HESI A2</a>
-                                </li>
-
-                            </ul>
+                              <div>
+                            <a class="mesh-button-border-red ms-3 my-2 dropdown-toggle" type="button"
+                                href="<?= base_url('order_now'); ?>" aria-expanded="false">
+                                Order Now
+                            </a>
+                           
                         </div>
-                        <div class="dropdown">
-                            <button class="mesh-button ms-3 my-2 dropdown-toggle" type="button" id="dropdownMenuButton2"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Log In <i class="fa fa-chevron-down"></i>
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-
-                                <li><a class="dropdown-item" href="https://nursing.naxlex.com/signin">NURSING</a></li>
-                                <li><a class="dropdown-item" href="https://app.naxlex.com/signin">NCLEX RN</a></li>
-                                <li><a class="dropdown-item" href="https://account.naxlex.com/login">TEAS/HESI A2</a>
-                                </li>
-
-                            </ul>
+                        <div>
+                            <a class="mesh-button ms-3 my-2" type="button" href="<?= base_url('client'); ?>" aria-expanded="false">
+                                Log In 
+                            </a>
+                          
                         </div>
                         </div>
                     </div>
@@ -196,16 +181,16 @@ s0.parentNode.insertBefore(s1,s0);
                                 <a id='home' class="" href="<?php echo base_url(); ?>">Home</a>
                             </li>
                             <li class="mesh-nav-link">
-                                <a id='teas' class="" href="<?php echo base_url('reviews'); ?>">Reviews</a>
+                                <a id='teas' class="" href="<?php echo base_url('services'); ?>">Services</a>
                             </li>
                             <li class="mesh-nav-link">
-                                <a id="nclex" class="" href="#">Services</a>
+                                <a id="nclex" class="" href="<?php echo base_url('universities'); ?>">Universities</a>
                             </li>
                             <li class="mesh-nav-link">
                                 <a id=hesi class="" href="<?php echo base_url('how_it_works'); ?>">How It Works</a>
                             </li>
                             <li class="mesh-nav-link">
-                                <a id='nursing' class="" href="<?php echo base_url('pricing'); ?>" target="_blank">Pricing</a>
+                                <a id='nursing' class="" href="<?php echo base_url('samples'); ?>">Samples</a>
                             </li>
                            
                         </ul>
@@ -233,7 +218,7 @@ s0.parentNode.insertBefore(s1,s0);
             <div class="tp-offcanvas-area">
                 <div class="offcanvas offcanvas-start bg-white ps-3 pe-4" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasSidebar" style="width: inherit;" aria-modal="true" role="dialog">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title ps-4" id="offcanvasSidebar">Naxlex</h5>
+                        <h5 class="offcanvas-title ps-4" id="offcanvasSidebar">AceFlexpathCourse</h5>
                         <button type="button" class="btn-close text-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">

@@ -136,6 +136,21 @@ class Home extends CI_Controller {
 
     }
 
+       public function universities()
+    {
+        //$data=$this->get_calculation_variables();
+       $data=$this->get_calculation_variables();
+       $data['title']="AceFlexPathCourse|Samples";
+       $data['description']="We have provided stellar writing services in the past.AceFlexPathCourse is show casing some of the papers we have previously done to help you experience quality first hand.";
+
+       $data['samples']=$this->Designmodel->get_samples(); 
+
+       $this->load->view('homepage/header',$data);
+       $this->load->view('homepage/universities',$data);
+       $this->load->view('homepage/footer');
+
+    }
+
      public function get_current_time($timezone){
 
 
@@ -493,13 +508,13 @@ class Home extends CI_Controller {
      }
 
 
-     public function paper_details_samples()
+     public function paper_details()
     {
 
             
-                $data=$this->get_help();
+                $data=$this->get_calculation_variables();
 
-                $post_title=$this->uri->segment(3);
+                $post_title=$this->uri->segment(2);
                
                 //$wordpress = $this->load->database('wordpress', TRUE); // the TRUE paramater tells CI that you'd like to return the database object.
 
@@ -553,6 +568,22 @@ class Home extends CI_Controller {
 
        $this->load->view('homepage/header',$data);
        $this->load->view('homepage/index',$data);
+       $this->load->view('homepage/footer',$data);
+
+    }
+
+     public function services()
+    {
+
+       $data=$this->get_calculation_variables();
+
+      
+
+       $data['title']="Professional essay writing and editing service";
+       $data['description']="We are a one-stop solution for all types of custom papers including case studies, lab reports, term papers, dissertation papers, thesis papers, research papers, PowerPoint presentations, projects, and much more. Our essay writing service has professional writers with several years of experience in writing papers on any topic and discipline. Some of these disciplines include statistics, finance, accounting, economics, physics, mathematics, chemistry, law, engineering, nursing, medicine, programming, computer science, and much more.";
+
+       $this->load->view('homepage/header',$data);
+       $this->load->view('homepage/services',$data);
        $this->load->view('homepage/footer',$data);
 
     }
@@ -644,35 +675,7 @@ class Home extends CI_Controller {
 
     }
 
-       public function paper_details()
-    {
-
-            
-
-                // $post_title=$this->uri->segment(3);
-               
-                // $wordpress = $this->load->database('wordpress', TRUE); // the TRUE paramater tells CI that you'd like to return the database object.
-
-                       
-                // //$data =  $this->get_logins();
-                // $data['h'] = $wordpress->select('*')->where('post_name=',$post_title)->get('wp_posts');
-                // //print_r($data['h']->result()); die();
-
-
-                // $data['title']=$data['h']->result()[0]->post_title; 
-             
-                // $data['description']=$data['h']->result()[0]->post_excerpt; 
-
-
-
-
-                // $this->load->view('homepage/header',$data);
-                // $this->load->view('homepage/paper_details',$data);
-                // $this->load->view('homepage/footer');
-
-
-
-    }
+      
 
      public function order_now()
     {
@@ -781,37 +784,7 @@ class Home extends CI_Controller {
 
     }
 
-     public function services()
-    {
-        $data=$this->get_calculation_variables();
-
-       $data['title']="AceFlexPathCourse|Services";
-       $data['description']="AceFlexPathCourse provides a simple and seamless process for placing orders, payments and tracking orders";
-
-       $wordpress = $this->load->database('wordpress', TRUE); // the TRUE paramater tells CI that you'd like to return the database object.
-
-                       
-     //  $data =  $this->get_logins();
-       $data['services'] = $wordpress->query("SELECT *
-                            FROM wp_posts
-                            LEFT JOIN  wp_term_relationships  as t
-                            ON ID = t.object_id
-                            WHERE post_type = 'post' AND post_status = 'publish' AND t.term_taxonomy_id = 5
-                            
-                            ORDER BY post_date DESC");
-
-       
-      // print_r($data['coursework']->result()); die();
-
-       // $data['paperwork'] = $wordpress->select('*')->where('post_type=','post')->where('post_status=','publish')->where('cat=',3)->order_by('post_date','DESC')->get('posts');
-
-       // $data['services'] = $wordpress->select('*')->where('post_type=','post')->where('post_status=','publish')>where('cat=',2)->order_by('post_date','DESC')->get('wp_posts');
-
-       $this->load->view('homepage/header',$data);
-       $this->load->view('homepage/services',$data);
-       $this->load->view('homepage/footer');
-
-    }
+   
 
       public function help()
     {
