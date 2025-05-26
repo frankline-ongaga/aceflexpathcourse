@@ -89,7 +89,7 @@
                         
                     </div>
                     
-                    <div class="d-none d-lg-block position-relative" style="margin-top:-20px;">
+                    <div class="d-none d-lg-block position-relative" style="margin-top:-35px;">
                         <img src="<?php echo base_url('images/flexpath.avif'); ?>" alt="flexpath help"
                             class="-circle animate__animated  animate__slower infinite  mt-5"
                              />

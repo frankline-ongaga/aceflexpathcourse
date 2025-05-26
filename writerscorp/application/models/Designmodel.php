@@ -828,6 +828,8 @@
                 $this->db->select('*');
                 $this->db->from('tbl_sample');
                 $this->db->where('status',0); 
+                $this->db->where('sample_website',21); 
+
                 $this->db->order_by('sample_added ','DESC');
                
                 $query = $this->db->get();
