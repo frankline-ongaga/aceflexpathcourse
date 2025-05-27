@@ -398,6 +398,8 @@
                     </div>
                 </div>
                 <?php } ?>
+
+                <?php if(isset($pagination)){ echo $pagination; } ?>
             </div>
         </div>
     </div>

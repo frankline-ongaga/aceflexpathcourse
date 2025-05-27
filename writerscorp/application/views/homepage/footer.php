@@ -33,8 +33,8 @@
         }
 
         .logo-item img {
-            max-width: 120px;
-            max-height: 80px;
+         //   max-width: 120px;
+         //   max-height: 80px;
             width: auto;
             height: auto;
             object-fit: contain;
@@ -57,8 +57,8 @@
             }
             
             .logo-item img {
-                max-width: 100px;
-                max-height: 70px;
+             //   max-width: 100px;
+             //   max-height: 70px;
             }
         }
 
@@ -73,47 +73,46 @@
             }
             
             .logo-item img {
-                max-width: 80px;
-                max-height: 60px;
+             //   max-width: 80px;
+             //   max-height: 60px;
             }
         }
     </style>
-</head>
-<body>
+
     <!-- University Logos Section -->
     <section class="logos-section">
         <div class="container">
             <div class="logos-grid">
                 <div class="logo-item">
-                    <img src="<?= base_url('universitieslogo/capella.webp'); ?>" alt="Capella University">
+                    <img src="<?= base_url('universitieslogo/capella.webp'); ?>" alt="Capella University flexpath course help">
                 </div>
                 
                 <div class="logo-item">
-                    <img src="<?= base_url('universitieslogo/westerngovernors.webp'); ?>" alt="Western Governors University">
+                    <img src="<?= base_url('universitieslogo/westerngovernors.webp'); ?>" alt="Western Governors University flexpath course help">
                 </div>
                 
                 <div class="logo-item">
-                    <img src="<?= base_url('universitieslogo/purdue.webp'); ?>" alt="Purdue University Global">
+                    <img src="<?= base_url('universitieslogo/purdue.webp'); ?>" alt="Purdue University Global flexpath course help">
                 </div>
                 
                 <div class="logo-item">
-                    <img src="<?= base_url('universitieslogo/snhu.webp'); ?>" alt="Southern New Hampshire University">
+                    <img src="<?= base_url('universitieslogo/snhu.webp'); ?>" alt="Southern New Hampshire University flexpath course help">
                 </div>
                 
                 <div class="logo-item">
-                    <img src="<?= base_url('universitieslogo/walden.webp'); ?>" alt="Walden University">
+                    <img src="<?= base_url('universitieslogo/walden.webp'); ?>" alt="Walden University flexpath course help">
                 </div>
                 
                 <div class="logo-item">
-                    <img src="<?= base_url('universitieslogo/universityofwisconsin.webp'); ?>" alt="University of Wisconsin">
+                    <img src="<?= base_url('universitieslogo/universityofwisconsin.webp'); ?>" alt="University of Wisconsin flexpath course help">
                 </div>
                 
                 <div class="logo-item">
-                    <img src="<?= base_url('universitieslogo/nau.webp'); ?>" alt="Northern Arizona University">
+                    <img src="<?= base_url('universitieslogo/nau.webp'); ?>" alt="Northern Arizona University flexpath course help">
                 </div>
                 
                 <div class="logo-item">
-                    <img src="<?= base_url('universitieslogo/umass.webp'); ?>" alt="UMass Global">
+                    <img src="<?= base_url('universitieslogo/umass.webp'); ?>" alt="UMass Global flexpath course help">
                 </div>
             </div>
         </div>
@@ -145,6 +144,8 @@
                                     <div class="--">
                                         <ul class="ps-0">
                                             <li><a href="<?php echo base_url('order_now'); ?>">Order Now</a></li>
+                                            <li><a href="<?php echo base_url('reviews'); ?>">Reviews</a></li>
+
                                             <li><a href="<?php echo base_url('how_it_works'); ?>">How It Works</a></li>
                                             <li><a href="<?php echo base_url('pricing'); ?>">Pricing</a></li>
                                             <li><a href="<?php echo base_url('privacy'); ?>">Privacy</a></li>

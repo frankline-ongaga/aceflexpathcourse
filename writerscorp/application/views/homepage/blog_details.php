@@ -6,31 +6,34 @@
 
 
 <main id="content">
-   <div id="hero" class="section py-5 jarallax">
-      <!-- background parallax -->
-      <!-- background overlay -->
-      <div class="overlay bg-primary opacity-90 z-index-n1"></div>
-      <!-- rocket moving up animation -->
-      <div class="container">
-         <div class="row align-items-center justify-content-center">
-            <!-- content -->
-            <div class="col-lg-7">
-               <br>
-               <br>
-               <div class="mt-0 pt-4 text-center">
-                  <h1 class="text-white text-shadow"><?php
+  
+
+
+<div class="mesh-background-div relative">
+    <div class="mesh-hero-gradient d-flex h-100">
+        <div class="container-lg">
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center">
+                    <h1 class="mesh-page-title infinite wow animate__slideDownSlightly" data-wow-duration="1.5s" data-wow-delay=".0s">
+                       <?php
 									          echo  $row->post_title;
-									          ?></h1>
-                  <hr class="divider mt-4 mx-auto bg-warning border-warning">
-               </div>
+									          ?>
+                    </h1>
+                    <br>
+                 
+                    <a href="<?php echo base_url('order_now'); ?>" class="mesh-button px-3 infinite wow animate__slideLeftSlightly" data-wow-duration="1.5s" data-wow-delay=".0s">
+                        Place Your Order Now
+                    </a>
+                </div>
+                <!-- Image column (commented out)
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-end">
+                    <img src="assets/images/teaspage.png" alt="" class="w-100" style="--animate-duration: 6s; height:100%" />
+                </div>
+                -->
             </div>
-            <!-- end content -->
-         </div>
-      </div>
-      <!-- End Page Title -->
-      <!-- Section -->
-      <div style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;" id="jarallax-container-0"><img class="jarallax-img" src="src/img-min/bg/bg-planet.jpg" alt="title" style="object-fit: cover; object-position: 50% 50%; max-width: none; position: absolute; top: 0px; left: 0px; width: 1525px; height: 351.727px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; margin-top: 15.1367px; transform: translate3d(0px, -86.3367px, 0px);"></div>
-   </div>
+        </div>
+    </div>
+</div>
         <!-- End Page Title -->
         <!-- Section -->
         <section class="section">

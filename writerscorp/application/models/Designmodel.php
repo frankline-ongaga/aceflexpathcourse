@@ -839,6 +839,42 @@
 
             }
 
+
+            public function get_samples_count()
+            {
+                $this->db->select('*');
+                $this->db->from('tbl_sample');
+                $this->db->where('status',0); 
+                $this->db->where('sample_website',21); 
+
+                
+                
+                $query = $this->db->get()->num_rows();
+                
+                return $query;
+
+
+            }
+
+              public function get_samples_result($config,$page)
+            {
+                $this->db->select('*');
+                $this->db->from('tbl_sample');
+                $this->db->where('status',0); 
+                $this->db->where('sample_website',21); 
+
+              
+                $this->db->order_by('sample_id','DESC'); 
+
+                $this->db->limit($config, $page);
+                
+                $query = $this->db->get();
+                
+                return $query;
+
+
+            }
+
               public function get_questions()
             {
                 $this->db->select('*');

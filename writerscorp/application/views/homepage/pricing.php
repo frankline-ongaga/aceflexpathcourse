@@ -8,8 +8,8 @@
                         Pricing
                     </h1>
                     <p class="mesh-page-description my-3 infinite wow animate__slideUpSlightly" data-wow-duration="1.5s" data-wow-delay=".0s">
-                        Most Trusted TEAS 7 Practice Test Website With a Guaranteed Pass of 90% Plus!
-                    </p>
+                        Aceflexpathcourse.com transparent and affordable pricing. 10% off on your first order.
+                      </p>
                     <a href="<?php echo base_url('order_now'); ?>" class="mesh-button px-3 infinite wow animate__slideLeftSlightly" data-wow-duration="1.5s" data-wow-delay=".0s">
                         Place Your Order Now
                     </a>

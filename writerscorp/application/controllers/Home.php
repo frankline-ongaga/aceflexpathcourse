@@ -125,10 +125,47 @@ class Home extends CI_Controller {
     {
         //$data=$this->get_calculation_variables();
        $data=$this->get_calculation_variables();
-       $data['title']="AceFlexPathCourse|Samples";
-       $data['description']="We have provided stellar writing services in the past.AceFlexPathCourse is show casing some of the papers we have previously done to help you experience quality first hand.";
+       $data['title']="AceFlexPathCourse sample papers";
+       $data['description']="Explore our collection of high-quality FlexPath course samples. See the excellence and expertise that our tutors bring to every assignment, helping students achieve academic success.";
 
-       $data['samples']=$this->Designmodel->get_samples(); 
+       //$data['samples']=$this->Designmodel->get_samples(); 
+
+       $count= $this->Designmodel->get_samples_count();
+
+          $config = [
+            'base_url' => base_url('home/get_samples'),
+            'total_rows' => $count,
+            'per_page' => 20,
+            'uri_segment' => 3,
+            'full_tag_open' => '<ul class="pagination justify-content-center">',
+            'full_tag_close' => '</ul>',
+            'first_tag_open' => '<li class="page-item">',
+            'first_tag_close' => '</li>',
+            'last_tag_open' => '<li class="page-item">',
+            'last_tag_close' => '</li>',
+            'next_tag_open' => '<li class="page-item">',
+            'next_tag_close' => '</li>',
+            'prev_tag_open' => '<li class="page-item">',
+            'prev_tag_close' => '</li>',
+            'num_tag_open' => '<li class="page-item">',
+            'num_tag_close' => '</li>',
+            'cur_tag_open' => '<li class="page-item active"><a class="page-link" href="#">',
+            'cur_tag_close' => '</a></li>',
+            'attributes' => ['class' => 'page-link'],
+        ];
+
+        $this->pagination->initialize($config);
+
+        // Fetch data
+        $page = ($this->uri->segment(3)) ? $this->uri->segment(3) : 0;
+
+        $data['samples']= $this->Designmodel->get_samples_result($config['per_page'],$page);
+
+        //$data['results'] = $this->db->limit($config['per_page'], $page)->get('tbl_sample')->result();
+        $data['pagination'] = $this->pagination->create_links();
+
+        
+       //print_r($data['samples']); die();
 
        $this->load->view('homepage/header',$data);
        $this->load->view('homepage/sample_papers',$data);
@@ -140,8 +177,8 @@ class Home extends CI_Controller {
     {
         //$data=$this->get_calculation_variables();
        $data=$this->get_calculation_variables();
-       $data['title']="AceFlexPathCourse|Samples";
-       $data['description']="We have provided stellar writing services in the past.AceFlexPathCourse is show casing some of the papers we have previously done to help you experience quality first hand.";
+       $data['title']="AceFlexPathCourse| Some of the universities we support";
+       $data['description']="Expert support for competency-based education programs across leading universities. Get personalized flexpath assistance tailored to your specific institution's requirements.";
 
        $data['samples']=$this->Designmodel->get_samples(); 
 
@@ -563,8 +600,9 @@ class Home extends CI_Controller {
 
       
 
-       $data['title']="Professional essay writing and editing service";
-       $data['description']="We are a one-stop solution for all types of custom papers including case studies, lab reports, term papers, dissertation papers, thesis papers, research papers, PowerPoint presentations, projects, and much more. Our essay writing service has professional writers with several years of experience in writing papers on any topic and discipline. Some of these disciplines include statistics, finance, accounting, economics, physics, mathematics, chemistry, law, engineering, nursing, medicine, programming, computer science, and much more.";
+       $data['title']="Accelerate Your FlexPath Success";
+
+       $data['description']="Accelerate your flexpath journey from RN to BSN or RN to MSN ,MHA, MBA, DNP, with our strategic, focused learning approach designed to maximize efficiency without compromising on quality.";
 
        $this->load->view('homepage/header',$data);
        $this->load->view('homepage/index',$data);
@@ -579,8 +617,8 @@ class Home extends CI_Controller {
 
       
 
-       $data['title']="Professional essay writing and editing service";
-       $data['description']="We are a one-stop solution for all types of custom papers including case studies, lab reports, term papers, dissertation papers, thesis papers, research papers, PowerPoint presentations, projects, and much more. Our essay writing service has professional writers with several years of experience in writing papers on any topic and discipline. Some of these disciplines include statistics, finance, accounting, economics, physics, mathematics, chemistry, law, engineering, nursing, medicine, programming, computer science, and much more.";
+       $data['title']="Expert FlexPath Course Support Services";
+       $data['description']="Comprehensive guidance across all FlexPath programs. From RN to BSN through doctoral studies, we provide personalized tutoring to accelerate your academic success.";
 
        $this->load->view('homepage/header',$data);
        $this->load->view('homepage/services',$data);
@@ -592,8 +630,8 @@ class Home extends CI_Controller {
     {
         $data=$this->get_calculation_variables();
 
-       $data['title']="AceFlexPathCourse pricing";
-       $data['description']="AceFlexPathCourse pricing plan is based on academic level, number of pages and urgency. Enjoy our rates that are way below market rates. Also, get to enjoy a lot of discounts in form of coupons. ";
+       $data['title']="AceFlexPathCourse Pricing";
+       $data['description']="Discover affordable pricing plans at AceMyFlexPathCourse.com. Get expert help with your flexPath courses tailored packages to fit your academic needs and budget.";
 
        $this->load->view('homepage/header',$data);
        $this->load->view('homepage/pricing',$data);
@@ -721,8 +759,8 @@ class Home extends CI_Controller {
     {
        $data=$this->get_calculation_variables();
 
-       $data['title']="AceFlexPathCourse|Order Now";
-       $data['description']="We have skilled writers with diverse speciality in technical orders, get your technical quotation in minutes.";
+       $data['title']="AceFlexPathCourse| Place Your Order Now";
+       $data['description']="AceFlexPathCourse.com makes it easy to get expert help with your FlexPath assignments, projects, and discussions.";
 
        $this->load->view('homepage/header',$data);
        $this->load->view('homepage/special_order',$data);
@@ -734,8 +772,8 @@ class Home extends CI_Controller {
     {
         $data=$this->get_calculation_variables();
 
-       $data['title']="Place your essay order at AceFlexPathCourse";
-       $data['description']="Fill in the order form with the details of your essay writing assignment or any other academic writing assignment you might have. The options include selecting the paper type, academic level, writing style (APA, MLA etc), number of pages, deadlines and others. You can also upload the files you might have for your assignment. ";
+       $data['title']="How to get help with your Flex Path Course";
+       $data['description']=" Our streamlined process makes it easy to get high-quality flex path writing assistance. Follow these simple steps to get started with your order.";
 
        $this->load->view('homepage/header',$data);
        $this->load->view('homepage/how_it_works',$data);
@@ -881,8 +919,8 @@ class Home extends CI_Controller {
     {
         $data=$this->get_calculation_variables();
 
-       $data['title']="AceFlexPathCourse|Client";
-       $data['description']="Create client account";
+       $data['title']="AceFlexPathCourse login or signup";
+       $data['description']="AceFlexPathCourse client account";
 
        $this->load->view('homepage/header',$data);
        $this->load->view('homepage/client_account',$data);

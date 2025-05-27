@@ -442,7 +442,7 @@ Research Application: Coaching on integrating research into clinical decision-ma
                <div class="row d-flex justify-content-center d-flex flex-row">
                   <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
                      <img class="rounded-circle shadow-1-strong mb-2"
-                        src="img/Photos/Avatars/img%20(10).webp" alt="avatar"
+                        src="<?php echo base_url('images/femaleavatar.webp'); ?>" alt="NURS-FPX4030 care coordination assessment"
                         style="width: 100px;" />
                      <h5 class="mb-1 text-center">– Jessica M., </h5>
                      <span>
@@ -467,7 +467,7 @@ Research Application: Coaching on integrating research into clinical decision-ma
                <div class="row d-flex justify-content-center d-flex flex-row">
                   <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
                      <img class="rounded-circle shadow-1-strong mb-2"
-                        src="<?php echo base_url('assets/images/testi2.png'); ?>" alt="avatar"
+                        src="<?php echo base_url('images/maleavatar.webp'); ?>" alt="RN to BSN help"
                         style="width: 100px;" />
                      <h5 class="mb-1 text-center">– Andrea T., RN, BSN</h5>
                      <span>
@@ -494,7 +494,7 @@ Research Application: Coaching on integrating research into clinical decision-ma
                <div class="row d-flex justify-content-center d-flex flex-row col-sm">
                   <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
                      <img class="rounded-circle shadow-1-strong mb-2"
-                        src="<?php echo base_url('assets/images/testi3.png'); ?>" alt="avatar"
+                        src="<?php echo base_url('images/maleavatar.webp'); ?>" alt="Healthcare Administrator flexpath help"
                         style="width: 100px;" />
                      <h5 class="mb-1 text-center">– David L., Healthcare Administrator</h5>
                      <span>
@@ -519,7 +519,7 @@ Research Application: Coaching on integrating research into clinical decision-ma
                <div class="row d-flex justify-content-center d-flex flex-row">
                   <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
                      <img class="rounded-circle shadow-1-strong mb-2"
-                        src="<?php echo base_url('assets/images/testi4.png'); ?>" alt="avatar"
+                        src="<?php echo base_url('images/femaleavatar.webp'); ?>" alt="Psychology flexpath help"
                         style="width: 100px;" />
                      <h5 class="mb-1 text-center">– Samantha R., Psychology Student</h5>
                      <span>
@@ -546,7 +546,7 @@ Research Application: Coaching on integrating research into clinical decision-ma
                <div class="row d-flex justify-content-center d-flex flex-row">
                   <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
                      <img class="rounded-circle shadow-1-strong mb-2"
-                        src="<?php echo base_url('assets/images/testi1.png'); ?>" alt="avatar"
+                        src="<?php echo base_url('images/maleavatar.webp'); ?>" alt="business analyst FlexPath course"
                         style="width: 100px;" />
                      <h5 class="mb-1 text-center">– James K., Business Analyst</h5>
                      <span>
@@ -571,7 +571,7 @@ Research Application: Coaching on integrating research into clinical decision-ma
                <div class="row d-flex justify-content-center d-flex flex-row">
                   <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
                      <img class="rounded-circle shadow-1-strong mb-2"
-                        src="<?php echo base_url('assets/images/testi5.png'); ?>" alt="avatar"
+                        src="<?php echo base_url('images/femaleavatar.webp'); ?>" alt="DNP FlexPath Course"
                         style="width: 100px;" />
                      <h5 class="mb-1 text-center">– Marianne E., DNP Candidate</h5>
                      <span>

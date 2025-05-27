@@ -1,16 +1,28 @@
 
-        <!-- Page Title -->
-        <section class="page-heading parallax effect-section" style="background-image: url(static/img/bg-1.webp);">
-            <div class="mask bg-primary opacity-8"></div>
-            <div class="container position-relative">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h1 class="text-white h1 mb-4">Blog</h1>
-                        
-                    </div>
+<div class="mesh-background-div relative">
+    <div class="mesh-hero-gradient d-flex h-100">
+        <div class="container-lg">
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center">
+                    <h1 class="mesh-page-title infinite wow animate__slideDownSlightly" data-wow-duration="1.5s" data-wow-delay=".0s">
+                        Blog
+                    </h1>
+                    <p class="mesh-page-description my-3 infinite wow animate__slideUpSlightly" data-wow-duration="1.5s" data-wow-delay=".0s">
+                        Aceflexpathcourse.com blog
+                      </p>
+                    <a href="<?php echo base_url('order_now'); ?>" class="mesh-button px-3 infinite wow animate__slideLeftSlightly" data-wow-duration="1.5s" data-wow-delay=".0s">
+                        Place Your Order Now
+                    </a>
                 </div>
+                <!-- Image column (commented out)
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-end">
+                    <img src="assets/images/teaspage.png" alt="" class="w-100" style="--animate-duration: 6s; height:100%" />
+                </div>
+                -->
             </div>
-        </section>
+        </div>
+    </div>
+</div>
         <!-- End Page Title -->
         <!-- Section -->
         <section class="section">

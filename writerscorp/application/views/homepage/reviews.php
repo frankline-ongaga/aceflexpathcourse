@@ -44,7 +44,7 @@
                <div class="mesh-rate-card d-flex flex-column wow mb-4">
                   <div class="row">
                      <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-                        <img class="rounded-circle shadow-1-strong mb-2" src="assets/images/testi2.png" alt="avatar" style="width: 100px;" />
+                      <img class="rounded-circle shadow-1-strong mb-2" src="<?= base_url('images/femaleavatar.webp'); ?>" alt="Registered Nurse FlexPath course" style="width: 100px;" />
                         <h5 class="mb-1 text-center">— Sarah M., Registered Nurse</h5>
                         <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                            <li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li>
@@ -61,7 +61,7 @@
                <div class="mesh-rate-card d-flex flex-column wow mb-4">
                   <div class="row">
                      <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-                        <img class="rounded-circle shadow-1-strong mb-2" src="assets/images/testi4.png" alt="avatar" style="width: 100px;" />
+                       <img class="rounded-circle shadow-1-strong mb-2" src="<?= base_url('images/maleavatar.webp'); ?>" alt="Healthcare administrator FlexPath course" style="width: 100px;" />
                         <h5 class="mb-1 text-center">— James T., Health Administrator</h5>
                         <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                            <li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li>
@@ -78,7 +78,7 @@
                <div class="mesh-rate-card d-flex flex-column wow mb-4">
                   <div class="row">
                      <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-                        <img class="rounded-circle shadow-1-strong mb-2" src="assets/images/testi3.png" alt="avatar" style="width: 100px;" />
+                        <img class="rounded-circle shadow-1-strong mb-2" src="<?= base_url('images/femaleavatar.webp'); ?>" alt="Healthcare executive FlexPath course" style="width: 100px;" />
                         <h5 class="mb-1 text-center">— Linda B., Healthcare Executive</h5>
                         <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                            <li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li>
@@ -95,7 +95,7 @@
                <div class="mesh-rate-card d-flex flex-column wow mb-4">
                   <div class="row">
                      <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-                        <img class="rounded-circle shadow-1-strong mb-2" src="assets/images/testi5.png" alt="avatar" style="width: 100px;" />
+                        <img class="rounded-circle shadow-1-strong mb-2" src="<?= base_url('images/maleavatar.webp'); ?>" alt="Business Doctorate FlexPath course" style="width: 100px;" />
                         <h5 class="mb-1 text-center">— David P., Business Doctorate Student</h5>
                         <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                            <li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li>
@@ -112,7 +112,7 @@
                <div class="mesh-rate-card d-flex flex-column wow mb-4">
                   <div class="row">
                      <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-                        <img class="rounded-circle shadow-1-strong mb-2" src="assets/images/testi1.png" alt="avatar" style="width: 100px;" />
+                       <img class="rounded-circle shadow-1-strong mb-2" src="<?= base_url('images/femaleavatar.webp'); ?>" alt="IT Professional FlexPath course" style="width: 100px;" />
                         <h5 class="mb-1 text-center">— Emily L., IT Professional</h5>
                         <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                            <li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li>
@@ -132,7 +132,7 @@
                <div class="mesh-rate-card d-flex flex-column wow mb-4">
                   <div class="row">
                      <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-                        <img class="rounded-circle shadow-1-strong mb-2" src="assets/images/testi1.png" alt="avatar" style="width: 100px;" />
+                          <img class="rounded-circle shadow-1-strong mb-2" src="<?= base_url('images/maleavatar.webp'); ?>" alt=" Business Administration Graduate FlexPath" style="width: 100px;" />
                         <h5 class="mb-1 text-center">— Mark F., Business Administration Graduate</h5>
                         <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                            <li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li>
@@ -152,7 +152,7 @@
                <div class="mesh-rate-card d-flex flex-column wow mb-4">
                   <div class="row">
                      <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-                        <img class="rounded-circle shadow-1-strong mb-2" src="assets/images/testi1.png" alt="avatar" style="width: 100px;" />
+                        <img class="rounded-circle shadow-1-strong mb-2" src="<?= base_url('images/femaleavatar.webp'); ?>" alt="Doctor of Nursing Practice FlexPath" style="width: 100px;" />
                         <h5 class="mb-1 text-center">— Karen W., Doctor of Nursing Practice Student</h5>
                         <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                            <li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li>
@@ -171,7 +171,7 @@
                <div class="mesh-rate-card d-flex flex-column wow mb-4">
                   <div class="row">
                      <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-                        <img class="rounded-circle shadow-1-strong mb-2" src="assets/images/testi1.png" alt="avatar" style="width: 100px;" />
+                        <img class="rounded-circle shadow-1-strong mb-2" src="<?= base_url('images/maleavatar.webp'); ?>" alt="MBA FlexPath" style="width: 100px;" />
                         <h5 class="mb-1 text-center">— Joseph A., MBA Graduate</h5>
                         <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                            <li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li>
@@ -190,7 +190,7 @@
                <div class="mesh-rate-card d-flex flex-column wow mb-4">
                   <div class="row">
                      <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-                        <img class="rounded-circle shadow-1-strong mb-2" src="assets/images/testi1.png" alt="avatar" style="width: 100px;" />
+                       <img class="rounded-circle shadow-1-strong mb-2" src="<?= base_url('images/femaleavatar.webp'); ?>" alt="Nurse Practitioner FlexPath" style="width: 100px;" />
                         <h5 class="mb-1 text-center">— Olivia H., Nurse Practitioner</h5>
                         <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                            <li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li>
@@ -209,7 +209,7 @@
                <div class="mesh-rate-card d-flex flex-column wow mb-4">
                   <div class="row">
                      <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-                        <img class="rounded-circle shadow-1-strong mb-2" src="assets/images/testi1.png" alt="avatar" style="width: 100px;" />
+                        <img class="rounded-circle shadow-1-strong mb-2" src="<?= base_url('images/femaleavatar.webp'); ?>" alt="Psychology FlexPath" style="width: 100px;" />
                         <h5 class="mb-1 text-center">— Rachel S., Psychology Graduate</h5>
                         <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
                            <li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li><li><i class="fas fa-star fa-sm"></i></li>
