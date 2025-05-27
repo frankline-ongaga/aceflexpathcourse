@@ -70,15 +70,7 @@ $route['services'] = 'Home/services';
 $route['samples'] = 'Home/get_samples';
 $route['universities'] = 'Home/universities';
 $route['paper_details/(:any)'] = 'home/paper_details';
-
-
-
-
-
-
-
-$route['sitemap/(:any)/(:any)'] = 'home/sitemap';
-$route['sitemap_loc'] = 'Home/sitemap_loc';
+$route['sitemap'] = 'Home/sitemap';
 
 $route['404_override'] = 'My404';
 

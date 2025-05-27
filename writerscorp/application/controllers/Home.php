@@ -1136,8 +1136,10 @@ class Home extends CI_Controller {
    
 }
 
+  
 
-    public function sitemap()
+
+ public function sitemap()
 {
     // first load the library
      $this->load->library('sitemap');
@@ -1145,35 +1147,32 @@ class Home extends CI_Controller {
     // create new instance
     $sitemap = new Sitemap();
 
-    $type=$this->uri->segment(2);
-    $limit=$this->uri->segment(3);
-
-    $limit=$limit*1000;
-    $offset=$limit-1000;
-
-    if($type=='page'){
-
-    $sitemap->add('https://aceflexpathcourse.com/', '2021-08-26', '1.0', 'daily');
-    $sitemap->add('https://aceflexpathcourse.com/pricing', '2021-08-26', '1.0', 'daily');
-    $sitemap->add('https://aceflexpathcourse.com/order_now', '2021-08-26', '1.0', 'daily');
-    $sitemap->add('https://aceflexpathcourse.com/how_it_works', '2021-08-26', '1.0', 'daily');
-    $sitemap->add('https://aceflexpathcourse.com/about_us', '2021-08-26', '1.0', 'daily');
-    $sitemap->add('https://aceflexpathcourse.com/client', '2021-08-26', '1.0', 'daily');
-    $sitemap->add('https://aceflexpathcourse.com/blog', '2021-08-26', '1.0', 'daily');
     
-    $sitemap->generate('xml');
 
-    }
+    $sitemap->add('https://aceflexpathcourse.com/', '2025-05-27', '1.0', 'daily');
+    $sitemap->add('https://aceflexpathcourse.com/pricing', '2025-05-27', '1.0', 'daily');
+    $sitemap->add('https://aceflexpathcourse.com/order_now', '2025-05-27', '1.0', 'daily');
+    $sitemap->add('https://aceflexpathcourse.com/how_it_works', '2025-05-27', '1.0', 'daily');
+    $sitemap->add('https://aceflexpathcourse.com/reviews', '2025-05-27', '1.0', 'daily');
+    $sitemap->add('https://aceflexpathcourse.com/services', '2025-05-27', '1.0', 'daily');
+    $sitemap->add('https://aceflexpathcourse.com/universities', '2025-05-27', '1.0', 'daily');
+    $sitemap->add('https://aceflexpathcourse.com/samples', '2025-05-27', '1.0', 'daily');
+    $sitemap->add('https://aceflexpathcourse.com/client', '2025-05-27', '1.0', 'daily');
+    $sitemap->add('https://aceflexpathcourse.com/blog', '2025-05-27', '1.0', 'daily');
 
-    elseif($type=='post'){
+
+
+     $samples=$this->Designmodel->get_sample_papers(); 
+
+
+   
 
     $wordpress = $this->load->database('wordpress', TRUE); // the TRUE paramater tells CI that you'd like to return the database object.
 
-    $posts = $wordpress->query("SELECT *
+    $posts = $wordpress->query("SELECT post_name, post_date
                             FROM wp_posts
                              WHERE post_type = 'post' AND
-                              post_status = 'publish'
-                            LIMIT 1000 OFFSET $offset");
+                              post_status = 'publish' ");
 
      foreach ($posts->result() as $post)
     {
@@ -1181,38 +1180,20 @@ class Home extends CI_Controller {
         $sitemap->add(base_url().'blog/'.$post->post_name, $post->post_date, '1.0', 'daily');
     }
 
-
-   
-     $sitemap->generate('xml');
-  }
-     elseif($type=='entry'){
-
-        $expression = $this->load->database('expression', TRUE); // the TRUE paramater tells CI that you'd like to return the database object.
-
-
-        $entries = $expression->query("SELECT exp_channel_data.entry_id AS entry_id, exp_channel_titles.title AS title, exp_channel_titles.url_title AS url_title,year,month,day
-          FROM exp_channel_data
-
-          LEFT JOIN exp_channel_titles ON exp_channel_titles.entry_id = exp_channel_data.entry_id
-         
-           WHERE exp_channel_data.channel_id=2
-
-            LIMIT 1000 OFFSET $offset
-      
-          ");
-
-
-     foreach ($entries->result() as $entry)
+      foreach ($samples->result() as $samply)
     {
-       // echo $post->sample_title; die();
-        $sitemap->add(base_url().'get_expression_details/'.$entry->url_title, $entry->year.'-'.$entry->month.'-'.$entry->day, '1.0', 'daily');
-    }
+   // echo $post->sample_title; die();
+        $sitemap->add(base_url().'paper_details/'.$samply->sample_slug, $samply->sample_added, '1.0', 'daily');
+     
+     }
 
 
    
      $sitemap->generate('xml');
-  }
+  
 }
+
+    
 
   public function get_expression_details()
     {
