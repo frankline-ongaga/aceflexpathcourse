@@ -878,7 +878,7 @@
              public function get_sample_papers()
             {
                 $this->db->select('sample_slug,sample_added');
-                $this->db->from('tbl_sample_papers');
+                $this->db->from('tbl_sample');
                 $this->db->where('status',0); 
                 $this->db->where('sample_website',21); 
                 $this->db->order_by('sample_added ','DESC');
