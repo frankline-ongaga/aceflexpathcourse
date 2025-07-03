@@ -191,7 +191,7 @@
                             <div class="col-xl-12 wow tpfadeUp" data-wow-duration=".1s" data-wow-delay=".1s">
                                 <p class="right-receved text-white">
                                     ©
-                                    2025 Aceflexcoursepath.com <span class="ms-3 me-3">
+                                    2025 Aceflexpathcourse.com <span class="ms-3 me-3">
                                 </p>
                             </div>
                         </div>
