@@ -131,7 +131,7 @@
                                         <span class="mt-3">We are a specialized academic support platform that helps students excel in self-paced FlexPath programs such as RN to BSN, RN to MSN, MHA, DNP, MBA, DBA, Psychology, Business, and IT. </span><br />
                                         <br>
                                         <span><b>Email Address:</b>support@aceflexpathcourse.com</span><br />
-                                        <span><b>Whatsapp: </b><a href="https://wa.me/18175082244">+18175082244</a></span>                                    </div>
+                                        <span><b>Whatsapp: </b><a href="https://wa.me/12063504565">+1 (206) 350-4565</a></span>                                    </div>
                                 </div>
                             </div>
                             <div class="col-xl-1 col-lg-1 col-md-1"></div>

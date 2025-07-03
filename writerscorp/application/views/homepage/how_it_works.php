@@ -281,7 +281,6 @@
    <section id="process" class="process-section py-5">
         <div class="container">
             <div class="section-header fade-in">
-                <h2 class="section-title">How It Works</h2>
                 <p class="section-subtitle">
                     Our streamlined process makes it easy to get high-quality flex path writing assistance. 
                     Follow these simple steps to get started with your order.
