@@ -2044,7 +2044,7 @@ curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
 curl_setopt($ch, CURLOPT_HTTPHEADER, [
     "Accept: application/json",
     "Content-Type: application/json",
-    "Authorization: Zoho-oauthtoken 1000.b69084289c4c3b6a434a873300944c10.60d57981a290019708b18295efed2265"
+    "Authorization: Zoho-oauthtoken 1000.c5f98b8f0d09f0cc8642f713b15cf6b7.a9878374daf7d4e837059c1f4e852d94"
 ]);
 
 // Return the response instead of outputting
