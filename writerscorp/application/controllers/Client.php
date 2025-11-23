@@ -34,6 +34,9 @@ class Client extends CI_Controller {
 
                 $this->load->helper('download');
 
+                $this->load->library('ZohoOAuth');
+
+
 
 
                // $this->load->library('facebook');
