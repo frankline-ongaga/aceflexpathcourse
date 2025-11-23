@@ -61,6 +61,9 @@ class Home extends CI_Controller {
 
          $this->load->model('Designmodel');
 
+         $this->load->library('ZohoOAuth');
+
+
 
 
     }
@@ -1308,51 +1311,8 @@ class Home extends CI_Controller {
      public function send_mail($to,$subject,$message)
   {
 
-     $html_mail =  file_get_contents(base_url()."assets/templates/contact-us.html");
+             $response = $this->zohooauth->send_mail($to, $subject, $message);
 
-    //Replacing Data with Keys
-    $data = array(
-       
-        "message" => $message,
-    );
-
-    $placeholders = array(
-       
-        "%MESSAGE%"
-    );
-    $final_mail = str_replace($placeholders, $data, $html_mail);
-
-     $config = Array(
-
-          'protocol' => 'smtp',
-          'smtp_host' => 'ssl://smtp.zoho.com',
-          'smtp_port' => 465,
-          'smtp_user' => 'support@aceflexpathcourse.com',
-          'smtp_pass' => 'aceflexpathcourse2022!',
-          'mailtype'  => 'html', 
-          'charset'   => 'utf-8'
-      );
-
-      $this->load->library('email');
-      $this->email->initialize($config);
-      $this->email->set_newline("\r\n");
-
-      $this->email->from('support@aceflexpathcourse.com');
-      $this->email->to($to); 
-      $this->email->bcc('essayloopwriters@gmail.com'); 
-
-      $this->email->reply_to('support@aceflexpathcourse.com'); 
-
-      $this->email->subject($subject);
-      $this->email->message($final_mail);  
-
-      // Set to, from, message, etc.
-
-      //$this->load->library('encrypt');
-
-      $result = $this->email->send();
-
-     // $this->email->print_debugger(); die();
 
 
     }
