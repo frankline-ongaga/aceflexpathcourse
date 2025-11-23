@@ -1,0 +1,84 @@
+/*******************************
+	All Responsive Code
+*******************************/
+@media ( max-width:991px ){
+	.navbar button.navbar-toggler {
+		color: #fff;
+	}
+	
+	.main-menu {
+		display: block;
+	}
+	
+	.main-menu li a {
+		display: block;
+		width: 100%;
+		text-align: left;
+		margin-left: 0;
+		padding-left: 0;
+	}
+	
+	.main-menu li {
+		display: block;
+		width: 100%;
+		text-align: left;
+		padding-left: 0;
+		margin-left: 0;
+	}
+	
+	.main-menu {
+		text-align: left;
+		width: 100%;
+		border-top: 1px solid #a295f5;
+		margin-top: 21px !important;
+	}
+	a.navbar-brand img {
+		width: 180px;
+	}
+}
+
+@media ( max-width:768px ) {
+	.blog-section aside#secondary,
+	.single-page-section aside#secondary {
+		margin-top: 75px;
+	}
+	.notfound .notfound-404 {
+        height: 142px;
+    }
+    .notfound .notfound-404 h1 {
+        font-size: 112px;
+	}
+	p.site-copyright {
+		text-align: center;
+	}
+	.footer-sociaal-icon ul {
+		text-align: center;
+		float: none;
+	}
+}
+
+@media ( max-width:478px ){
+	h4.blog-info > span.caretory i {
+		margin-left: 0;
+		margin-top: 11px;
+	}
+}
+
+@media ( max-width:402px ){
+	.comment-body .comment-metadata a time {
+		margin-left: 0;
+		margin-top: 40px;
+	}
+	h1.single-page-title {
+		font-size: 28px;
+	}
+}
+
+@media ( max-width:330px ){
+	.blog-info .fa-calendar-alt {
+		margin-left: 6px;
+	}
+	h4.blog-info>span {
+		padding-right: 6px;
+	}
+}

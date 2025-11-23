@@ -2,6 +2,10 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Client extends CI_Controller {
+
+
+         private $redirect_uri = ''; // Will be set in constructor
+
     
         function __construct()
   {
@@ -42,6 +46,9 @@ class Client extends CI_Controller {
                  $this->load->model('Mahana_model');
 
                 $this->load->library('mahana_messaging');
+
+                $this->redirect_uri = base_url('client/return');
+
         }
 
   public function get_info()
@@ -1930,6 +1937,133 @@ class Client extends CI_Controller {
          $this->load->view('buyer/all',$data);
          $this->load->view('buyer/footer',$data);
   }
+
+
+  public function return() {
+       
+        $code = $this->input->get('code');
+        
+        if (!$code) {
+            echo "Error: No authorization code received";
+            return;
+        }
+        
+        $curl = curl_init();
+        
+        curl_setopt_array($curl, [
+            CURLOPT_URL => 'https://accounts.zoho.com/oauth/v2/token',
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_POST => true,
+            CURLOPT_POSTFIELDS => http_build_query([
+                'code' => $code,
+                'client_id' => $this->client_id,
+                'client_secret' => $this->client_secret,
+                'redirect_uri' => $this->redirect_uri,
+                'grant_type' => 'authorization_code'
+            ]),
+            CURLOPT_HTTPHEADER => [
+                'Content-Type: application/x-www-form-urlencoded'
+            ]
+        ]);
+        
+        $response = curl_exec($curl);
+        $http_code = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+        
+        if (curl_errno($curl)) {
+            echo 'Curl error: ' . curl_error($curl);
+            curl_close($curl);
+            return;
+        }
+        
+        curl_close($curl);
+        $result = json_decode($response, true);
+
+        print_r($result); die();
+
+
+
+       // return $result['access_token'];
+
+       
+
+       
+    }
+
+     public function auth() {
+        //'scope' => 'ZohoMail.messages.ALL';
+        //'scope' => 'ZohoMail.accounts.ALL',
+
+        $auth_url = 'https://accounts.zoho.com/oauth/v2/auth?' . http_build_query([
+            'response_type' => 'code',
+            'client_id' => $this->client_id,
+            'scope' => 'ZohoMail.messages.ALL',
+            'access_type' => 'offline',
+            'prompt'=>'consent',
+            'redirect_uri' => $this->redirect_uri
+        ]);
+        
+        redirect($auth_url);
+    }
+
+      public function authacc() {
+        //'scope' => 'ZohoMail.messages.ALL';
+        //'scope' => 'ZohoMail.accounts.ALL',
+
+        $auth_url = 'https://accounts.zoho.com/oauth/v2/auth?' . http_build_query([
+            'response_type' => 'code',
+            'client_id' => $this->client_id,
+            'scope' => 'ZohoMail.accounts.ALL',
+            'access_type' => 'offline',
+            'redirect_uri' => $this->redirect_uri
+        ]);
+        
+        redirect($auth_url);
+    }
+
+  
+
+
+   public function getid(){
+
+       $ch = curl_init();
+
+// Set the URL
+curl_setopt($ch, CURLOPT_URL, "https://mail.zoho.com/api/accounts");
+
+// Set the request method to GET
+curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
+
+// Set headers
+curl_setopt($ch, CURLOPT_HTTPHEADER, [
+    "Accept: application/json",
+    "Content-Type: application/json",
+    "Authorization: Zoho-oauthtoken 1000.b69084289c4c3b6a434a873300944c10.60d57981a290019708b18295efed2265"
+]);
+
+// Return the response instead of outputting
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+// Execute the request
+$response = curl_exec($ch);
+
+// Check for errors
+if (curl_errno($ch)) {
+    echo "cURL error: " . curl_error($ch);
+} else {
+    // Process the response
+    echo $response;
+}
+
+// Close the cURL session
+curl_close($ch);
+
+
+
+
+
+   }
+
+
 
   public function get_completed()
   {
