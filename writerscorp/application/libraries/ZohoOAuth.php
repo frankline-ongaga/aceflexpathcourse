@@ -103,7 +103,7 @@ class ZohoOAuth {
         $final_mail = str_replace($placeholders, $data, $html_mail);
 
         // Zoho Mail API endpoint
-        $url = "https://mail.zoho.com/api/accounts/1082206000000008004/messages";
+        $url = "https://mail.zoho.com/api/accounts/1082206000000008002/messages";
 
         // Prepare the email data
         $email_data = [

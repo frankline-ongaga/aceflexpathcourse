@@ -2682,7 +2682,7 @@ curl_close($ch);
 
            $response = $this->zohooauth->send_mail($to, $subject, $message);
 
-           print_r($response); die();
+           //print_r($response); die();
 
 
 
