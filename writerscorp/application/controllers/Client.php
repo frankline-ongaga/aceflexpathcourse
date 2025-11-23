@@ -53,6 +53,8 @@ class Client extends CI_Controller {
                 $this->redirect_uri = base_url('client/return');
 
                 $this->client_id = '1000.F9CW2671640J7302J7K5KDAVARKISB';
+                $this->client_secret = '70c24958cedee1340dd3e834c43e825e0d81b21d97';
+
 
         }
 
