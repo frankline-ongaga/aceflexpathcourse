@@ -50,10 +50,10 @@ class Client extends CI_Controller {
 
                 $this->load->library('mahana_messaging');
 
-                $this->redirect_uri = base_url('client/return');
+                // $this->redirect_uri = base_url('client/return');
 
-                $this->client_id = '1000.F9CW2671640J7302J7K5KDAVARKISB';
-                $this->client_secret = '70c24958cedee1340dd3e834c43e825e0d81b21d97';
+                // $this->client_id = '1000.F9CW2671640J7302J7K5KDAVARKISB';
+                // $this->client_secret = '70c24958cedee1340dd3e834c43e825e0d81b21d97';
 
 
         }
@@ -345,7 +345,7 @@ class Client extends CI_Controller {
                         'order_coupon' =>$this->input->post('coupon'),
                         'order_words' =>$words,
                         'order_commission' =>$commission,
-                        'order_website' =>8,
+                        'order_website' =>21,
                         'edit_note' =>$edit_note,
                         //send email to client confirming receipt
                        );
@@ -378,7 +378,7 @@ class Client extends CI_Controller {
                         'order_writer_id' =>$writer_id,
                        // 'order_status' =>5,
                         'order_commission' =>$commission,
-                        'order_website' =>8,
+                        'order_website' =>21,
                         'edit_note' =>$edit_note,
                         
                         //send email to client confirming receipt
@@ -538,7 +538,7 @@ class Client extends CI_Controller {
                         'order_coupon' =>$this->input->post('coupon'),
                         'order_words' =>$words,
                         'order_commission' =>$commission,
-                        'order_website' =>8,
+                        'order_website' =>21,
                         'edit_note' =>$edit_note,
                         
                         //send email to client confirming receipt
@@ -572,7 +572,7 @@ class Client extends CI_Controller {
                         'order_writer_id' =>$writer_id,
                        // 'order_status' =>5,
                         'order_commission' =>$commission,
-                        'order_website' =>8,
+                        'order_website' =>21,
                         'edit_note' =>$edit_note,
                         
                         //send email to client confirming receipt
@@ -2888,7 +2888,7 @@ curl_close($ch);
                       'order_files' =>$file_upload,
                       'order_due' =>$due,
                       'other' =>$other,
-                      'order_website' =>8,
+                      'order_website' =>21,
                       
                       //send email to client confirming receipt
                      );
@@ -3032,7 +3032,7 @@ curl_close($ch);
                       'order_files' =>$file_upload,
                       'order_due' =>$due,
                       'other' =>$other,
-                      'order_website' =>8,
+                      'order_website' =>21,
                       
                       //send email to client confirming receipt
                      );
@@ -3348,7 +3348,7 @@ curl_close($ch);
                         'order_coupon' =>$this->input->post('coupon'),
                         'order_words' =>$words,
                         'order_commission' =>$commission,
-                        'order_website' =>8,
+                        'order_website' =>21,
                         //send email to client confirming receipt
                        );
                       }
@@ -3380,7 +3380,7 @@ curl_close($ch);
                         'order_writer_id' =>$writer_id,
                        // 'order_status' =>5,
                         'order_commission' =>$commission,
-                        'order_website' =>8,
+                        'order_website' =>21,
                         
                         //send email to client confirming receipt
                        );
@@ -3535,7 +3535,7 @@ curl_close($ch);
                         'order_coupon' =>$this->input->post('coupon'),
                         'order_words' =>$words,
                         'order_commission' =>$commission,
-                        'order_website' =>8,
+                        'order_website' =>21,
                         
                         //send email to client confirming receipt
                        );
@@ -3568,7 +3568,7 @@ curl_close($ch);
                         'order_writer_id' =>$writer_id,
                        // 'order_status' =>5,
                         'order_commission' =>$commission,
-                        'order_website' =>8,
+                        'order_website' =>21,
                         
                         //send email to client confirming receipt
                        );
@@ -4970,7 +4970,7 @@ curl_close($ch);
                         'order_type' =>2,
                         'other' =>$other,
                         'order_commission' =>$commission,
-                        'order_website' =>8,
+                        'order_website' =>21,
                       //  'order_words' =>$words,
                         
                         //send email to client confirming receipt
@@ -5086,7 +5086,7 @@ curl_close($ch);
                                 'order_type' =>2,
                                 'other' =>$other,
                                 'order_commission' =>$commission,
-                                'order_website' =>8,
+                                'order_website' =>21,
 
                                // 'order_service_id' =>$service,
                                // 'order_words' =>$words,
@@ -5369,7 +5369,7 @@ curl_close($ch);
                         'order_type' =>2,
                         'other' =>$other,
                         'order_commission' =>$commission,
-                        'order_website' =>8,
+                        'order_website' =>21,
                         
                         //send email to client confirming receipt
                        );
@@ -5396,7 +5396,7 @@ curl_close($ch);
                         'other' =>$other,
                         'order_commission' =>$commission,
                         'order_writer_id' =>$writer_id,
-                        'order_website' =>8,
+                        'order_website' =>21,
                         
                         //send email to client confirming receipt
                        );
@@ -5510,7 +5510,7 @@ curl_close($ch);
                         'order_type' =>2,
                         'other' =>$other,
                         'order_commission' =>$commission,
-                        'order_website' =>8,
+                        'order_website' =>21,
                         
                         //send email to client confirming receipt
                        );
@@ -5537,7 +5537,7 @@ curl_close($ch);
                         'other' =>$other,
                         'order_commission' =>$commission,
                         'order_writer_id' =>$writer_id,
-                        'order_website' =>8,
+                        'order_website' =>21,
                         
                         //send email to client confirming receipt
                        );
@@ -6366,7 +6366,7 @@ curl_close($ch);
                         'order_words' =>$words,
                         'affiliate_id' =>$affiliate_id,
                         'order_commission' =>$commission,
-                        'order_website' =>8,
+                        'order_website' =>21,
                         
                         //send email to client confirming receipt
                        );
@@ -6496,7 +6496,7 @@ curl_close($ch);
                                 'order_words' =>$words,
                                 'affiliate_id' =>$affiliate_id,
                                 'order_commission' =>$commission,
-                                'order_website' =>8,
+                                'order_website' =>21,
 
                                 
                                 //send email to client confirming receipt
