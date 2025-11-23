@@ -52,6 +52,8 @@ class Client extends CI_Controller {
 
                 $this->redirect_uri = base_url('client/return');
 
+                $this->client_id = '1000.F9CW2671640J7302J7K5KDAVARKISB';
+
         }
 
   public function get_info()
