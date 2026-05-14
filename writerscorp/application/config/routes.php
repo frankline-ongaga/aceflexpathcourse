@@ -72,6 +72,7 @@ $route['universities'] = 'Home/universities';
 $route['paper_details/(:any)'] = 'home/paper_details';
 $route['sitemap'] = 'Home/sitemap';
 
+$route['flexpath-samples/(:any)/(:num)'] = 'Home/flexpath_samples/$1/$2';
+$route['flexpath-samples/(:any)'] = 'Home/flexpath_samples/$1';
+
 $route['404_override'] = 'My404';
-
-

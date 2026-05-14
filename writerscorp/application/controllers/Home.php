@@ -68,6 +68,136 @@ class Home extends CI_Controller {
 
     }
 
+    private function get_flexpath_category_tree()
+    {
+        $wordpress = $this->load->database('wordpress', TRUE);
+
+        $rows = $wordpress->query(
+            "SELECT t.term_id, t.name, t.slug, tt.parent, tt.description, tt.count
+             FROM wp_terms t
+             INNER JOIN wp_term_taxonomy tt ON tt.term_id = t.term_id
+             WHERE tt.taxonomy = 'category' AND t.slug <> 'uncategorized'
+             ORDER BY tt.parent ASC, t.name ASC"
+        )->result_array();
+
+        $byParent = [];
+        foreach ($rows as $row) {
+            $parentId = (int) $row['parent'];
+            if (!isset($byParent[$parentId])) {
+                $byParent[$parentId] = [];
+            }
+            $byParent[$parentId][] = [
+                'term_id' => (int) $row['term_id'],
+                'name' => $row['name'],
+                'slug' => $row['slug'],
+                'description' => $row['description'],
+                'count' => (int) $row['count'],
+            ];
+        }
+
+        $tree = [];
+        foreach (($byParent[0] ?? []) as $top) {
+            $tree[] = $top + [
+                'children' => $byParent[$top['term_id']] ?? [],
+            ];
+        }
+
+        return $tree;
+    }
+
+    public function flexpath_samples($categorySlug = null, $page = 0)
+    {
+        if (!$categorySlug) {
+            show_404();
+            return;
+        }
+
+        $data = $this->get_calculation_variables();
+        $wordpress = $this->load->database('wordpress', TRUE);
+
+        $term = $wordpress->query(
+            "SELECT t.term_id, t.name, t.slug, tt.description
+             FROM wp_terms t
+             INNER JOIN wp_term_taxonomy tt ON tt.term_id = t.term_id
+             WHERE tt.taxonomy = 'category' AND t.slug = ?
+             LIMIT 1",
+            [$categorySlug]
+        )->row_array();
+
+        if (!$term) {
+            show_404();
+            return;
+        }
+
+        $countRow = $wordpress->query(
+            "SELECT COUNT(DISTINCT p.ID) AS cnt
+             FROM wp_posts p
+             INNER JOIN wp_term_relationships tr ON tr.object_id = p.ID
+             INNER JOIN wp_term_taxonomy tt ON tt.term_taxonomy_id = tr.term_taxonomy_id
+             INNER JOIN wp_terms t ON t.term_id = tt.term_id
+             WHERE p.post_type = 'post'
+               AND p.post_status = 'publish'
+               AND tt.taxonomy = 'category'
+               AND t.slug = ?",
+            [$categorySlug]
+        )->row_array();
+
+        $totalRows = (int) ($countRow['cnt'] ?? 0);
+
+        $config = [
+            'base_url' => base_url('flexpath-samples/' . $categorySlug),
+            'total_rows' => $totalRows,
+            'per_page' => 20,
+            'uri_segment' => 3,
+            'full_tag_open' => '<ul class="pagination justify-content-center">',
+            'full_tag_close' => '</ul>',
+            'first_tag_open' => '<li class="page-item">',
+            'first_tag_close' => '</li>',
+            'last_tag_open' => '<li class="page-item">',
+            'last_tag_close' => '</li>',
+            'next_tag_open' => '<li class="page-item">',
+            'next_tag_close' => '</li>',
+            'prev_tag_open' => '<li class="page-item">',
+            'prev_tag_close' => '</li>',
+            'num_tag_open' => '<li class="page-item">',
+            'num_tag_close' => '</li>',
+            'cur_tag_open' => '<li class="page-item active"><a class="page-link" href="#">',
+            'cur_tag_close' => '</a></li>',
+            'attributes' => ['class' => 'page-link'],
+        ];
+
+        $this->pagination->initialize($config);
+        $offset = is_numeric($page) ? (int) $page : 0;
+
+        $limit = (int) $config['per_page'];
+        $offset = max(0, $offset);
+
+        $data['h'] = $wordpress->query(
+            "SELECT DISTINCT p.*
+             FROM wp_posts p
+             INNER JOIN wp_term_relationships tr ON tr.object_id = p.ID
+             INNER JOIN wp_term_taxonomy tt ON tt.term_taxonomy_id = tr.term_taxonomy_id
+             INNER JOIN wp_terms t ON t.term_id = tt.term_id
+             WHERE p.post_type = 'post'
+               AND p.post_status = 'publish'
+               AND tt.taxonomy = 'category'
+               AND t.slug = ?
+             ORDER BY p.post_date DESC
+             LIMIT {$limit} OFFSET {$offset}",
+            [$categorySlug]
+        );
+
+        $data['links'] = $this->pagination->create_links();
+        $data['category'] = $term;
+
+        $data['title'] = $term['name'] . " Samples";
+        $data['description'] = $term['description'] ?: ("Browse posts related to " . $term['name'] . ".");
+
+        $this->load->view('homepage/header', $data);
+        $this->load->view('homepage/flexpath_samples', $data);
+        $this->load->view('homepage/footer', $data);
+    }
+
      public function check_log_activity(){
 
 
@@ -601,6 +731,7 @@ class Home extends CI_Controller {
 
        $data=$this->get_calculation_variables();
 
+       $data['flexpath_categories'] = $this->get_flexpath_category_tree();
       
 
        $data['title']="Accelerate Your FlexPath Success";
