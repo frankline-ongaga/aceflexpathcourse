@@ -50,19 +50,17 @@
                                     </div>
                                 <?php else : ?>
                                     <?php foreach ($children as $child) :
-                                        $childName = htmlspecialchars($child['name'] ?? 'Subcategory', ENT_QUOTES, 'UTF-8');
-                                        $childDesc = trim((string) ($child['description'] ?? ''));
-                                        $childDesc = $childDesc !== '' ? htmlspecialchars($childDesc, ENT_QUOTES, 'UTF-8') : '';
+                                        $childNameRaw = $child['name'] ?? 'Subcategory';
+                                        $childDescRaw = trim((string) ($child['description'] ?? ''));
+                                        $childTitleRaw = $childNameRaw . ($childDescRaw !== '' ? (' - ' . $childDescRaw) : '');
+                                        $childTitle = htmlspecialchars($childTitleRaw, ENT_QUOTES, 'UTF-8');
                                         $childSlug = $child['slug'] ?? '';
                                         $samplesUrl = base_url('flexpath-samples/' . $childSlug);
                                     ?>
                                         <div class="col-lg-4 col-md-6 col-sm-12 mb-2">
                                             <div class="card mb-3 custom-hover shadow-none" style="border: 1px solid #ccc !important;">
                                                 <div class="card-body">
-                                                    <h5 class="h6 mb-1"><?= $childName; ?></h5>
-                                                    <?php if ($childDesc !== '') : ?>
-                                                        <p class="card-text small mb-2"><?= $childDesc; ?></p>
-                                                    <?php endif; ?>
+                                                    <h5 class="h6 mb-2"><?= $childTitle; ?></h5>
                                                     <a class="btn btn-sm btn-outline-primary" href="<?= htmlspecialchars($samplesUrl, ENT_QUOTES, 'UTF-8'); ?>">View Samples</a>
                                                 </div>
                                             </div>
@@ -77,4 +75,3 @@
         <?php endif; ?>
     </section>
 </div>
-
